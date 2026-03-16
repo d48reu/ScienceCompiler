@@ -1,0 +1,6 @@
+Source: PMID 37296266
+Title: Sexual dimorphic metabolic and cognitive responses of C57BL/6 mice to Fisetin or Dasatinib and quercetin cocktail oral treatment
+URL: https://pubmed.ncbi.nlm.nih.gov/37296266/
+
+Study summary:
+This study tested monthly oral senolytic treatment in young-adult to middle-aged mice and found strong sex- and treatment-specific differences. Fisetin improved metabolism and cognition in males but had negligible effects in females. Dasatinib plus quercetin had minimal effects in males but was detrimental in females, increasing adiposity, elevating SASP-related markers, reducing energy metabolism, and worsening object-recognition memory. The paper serves as a caution that senolytics can have beneficial, negligible, or harmful effects depending on sex, timing, and compound choice.

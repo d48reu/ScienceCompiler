@@ -1,0 +1,6 @@
+Source: PMID 36839287
+Title: Neuroprotective Effects of Sodium Butyrate by Restoring Gut Microbiota and Inhibiting TLR4 Signaling in Mice with MPTP-Induced Parkinson's Disease
+URL: https://pubmed.ncbi.nlm.nih.gov/36839287/
+
+Study summary:
+This MPTP-induced Parkinson's disease mouse study found that sodium butyrate improved motor performance, increased dopamine and serotonin-related measures, and reduced dopaminergic neuron loss. The treatment restored aspects of gut microbiota balance, repaired the intestinal epithelial barrier, and increased tight junction proteins ZO-1 and occludin. Sodium butyrate reduced TNF-α and IL-6 in serum, colon, and striatum, and inhibited overactivation of microglia and astrocytes. Mechanistically, the paper emphasizes suppression of the TLR4/MyD88/NF-κB pathway across the gut-brain axis.

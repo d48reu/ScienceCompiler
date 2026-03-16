@@ -1,0 +1,36 @@
+Science Compiler
+
+One-line pitch:
+An AI system that compiles messy scientific literature into structured claims, contradiction maps, weighted evidence balances, and decisive experiment ideas.
+
+Why this fits the hackathon:
+- Creativity: it is not another chatbot or RAG wrapper; it treats papers as inputs to a compiler pipeline.
+- Usefulness: it helps researchers find where the literature actually disagrees instead of averaging everything into mush.
+- Presentation: the demo is legible, visual, and terminal-friendly. Raw papers go in, structured scientific tension comes out.
+
+What to emphasize:
+1. This is AI as a scientific instrument, not AI as the subject.
+2. It finds context-dependent contradictions instead of flattening them.
+3. It supports human review instead of pretending to be fully autonomous.
+4. It already works across two domains:
+   - butyrate / neuroinflammation
+   - senolytics / aging
+
+Best butyrate story:
+- direct sodium butyrate looks mostly anti-neuroinflammatory across several non-parkinsonian contexts
+- but one MPTP Parkinson paper flips the sign
+- the system surfaces that contradiction and proposes moderator-focused follow-up experiments
+
+Best senolytics story:
+- the system generalizes to a different domain
+- instead of one core contradiction, it reveals benefit-vs-harm tradeoffs across senolytic agents
+- that shows the compiler is not overfit to one pattern
+
+What NOT to claim:
+- do not say it proves new biology
+- do not say it replaces experts
+- do not say it is a full paper-reading scientist
+- do say it is a new workflow for turning literature into structured scientific disagreement and better hypotheses
+
+Best framing sentence:
+Science Compiler turns papers from things you read into things you can compute over.

@@ -1,0 +1,6 @@
+Source: PMID 35917736
+Title: Sodium butyrate reduces overnutrition-induced microglial activation and hypothalamic inflammation
+URL: https://pubmed.ncbi.nlm.nih.gov/35917736/
+
+Study summary:
+This overnutrition and obesity study found that oral sodium butyrate reduced hypothalamic microgliosis and inflammatory cytokine expression in high-fat-diet mice. The treatment also reduced ER stress, neuronal apoptosis, and NPY expression in the hypothalamus. In high-glucose microglial models, sodium butyrate inhibited IL-1β and reduced reactive oxygen species while shifting microglia toward a resting morphology through the Akt/Cdc42 pathway. The paper frames sodium butyrate as a suppressor of overnutrition-induced hypothalamic inflammation.

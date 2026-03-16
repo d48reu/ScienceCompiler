@@ -1,0 +1,6 @@
+Source: PMID 36555338
+Title: Sodium Butyrate Supplementation Modulates Neuroinflammatory Response Aggravated by Antibiotic Treatment in a Mouse Model of Binge-like Ethanol Drinking
+URL: https://pubmed.ncbi.nlm.nih.gov/36555338/
+
+Study summary:
+This mouse study tested whether sodium butyrate protects against ethanol-related neuroinflammation, especially when gut dysbiosis is worsened by antibiotics. Ethanol increased MCP-1, TNF-α, IL-1β, and IL-6 expression in the brain, and antibiotic treatment aggravated parts of this inflammatory response. Sodium butyrate supplementation prevented the ethanol-induced increase in pro-inflammatory cytokine expression with and without antibiotic treatment. It also normalized Iba-1 positive microglial changes and prevented astrocyte loss in the hippocampus. The paper argues that butyrate protects the brain partly by modulating neuroinflammatory responses along the gut-brain axis.

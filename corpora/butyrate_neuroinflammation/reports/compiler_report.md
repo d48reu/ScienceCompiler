@@ -1,0 +1,370 @@
+# Science Compiler Report
+
+## Summary
+
+- Raw claims: 19
+- Curated claims: 19
+- Contradictions: 5
+- Mechanism families: 34
+- Experiment proposals: 5
+
+## Claims
+
+- pmid_29229502::C1 | sodium butyrate -> depression-like behaviors | effect=decrease | source=pmid_29229502 | evidence_weight=4.70
+  - summary: Sodium butyrate decreased LPS-induced depression-like behaviors in mice.
+  - mechanism tags: microglial activation, neuroinflammation
+  - context: species=mouse, model_system=lps-induced depression, tissue=hippocampus, disease_state=depression-like behavior, administration_route=repeated treatment, time_horizon=acute
+- pmid_30154787::C1 | high-fiber inulin diet -> cecal butyrate | effect=increase | source=pmid_30154787 | evidence_weight=5.50
+  - summary: High-fiber inulin diet increased cecal butyrate in aged mice.
+  - mechanism tags: gut microbiome, scfas
+  - context: species=mouse, tissue=cecum, disease_state=aging
+- C2 | high-fiber inulin diet -> microglial profile | effect=decrease | source=pmid_30154787 | evidence_weight=5.50
+  - summary: High-fiber inulin diet promoted an anti-inflammatory microglial profile in aged mice.
+  - mechanism tags: gut microbiome, neuroinflammation
+  - context: species=mouse, tissue=brain, disease_state=aging
+- C3 | pharmacologic butyrate treatment -> il-1beta, tnf, il-6 expression | effect=decrease | source=pmid_30154787 | evidence_weight=5.50
+  - summary: Pharmacologic butyrate treatment decreased expression of IL-1β, TNF, and IL-6 in microglia from aged mice after LPS challenge.
+  - mechanism tags: anti-inflammatory, hdac_inhibition
+  - context: species=mouse, tissue=brain, disease_state=aging
+- pmid_31835282::C1 | clostridium butyricum -> microglial activation | effect=decrease | source=pmid_31835282 | evidence_weight=4.60
+  - summary: Clostridium butyricum treatment decreased microglial activation in the brain of APP/PS1 mice.
+  - mechanism tags: butyrate, gut-brain axis
+  - context: species=mouse, model_system=app/ps1, tissue=brain, disease_state=alzheimer's disease
+- pmid_32556930::C1 | sodium butyrate -> neuroinflammation | effect=increase | source=pmid_32556930 | evidence_weight=5.80
+  - summary: Sodium butyrate exacerbates neuroinflammation in MPTP-induced Parkinson's disease mice model, increasing microglial and astrocyte activation and pro-inflammatory markers such as IL-1β, IL-18, iNOS, and nitric oxide.
+  - mechanism tags: astrocyte activation, microglial activation, pro-inflammatory markers
+  - context: species=mouse, model_system=mptp-induced parkinson's disease, tissue=brain, disease_state=parkinson's disease, administration_route=not specified, dose_level=not specified, time_horizon=not specified
+- pmid_33785315::C1 | sodium butyrate -> neuroinflammation | effect=decrease | source=pmid_33785315 | evidence_weight=4.60
+  - summary: Sodium butyrate decreased neuroinflammation in 5XFAD mice.
+  - mechanism tags: inflammation-amyloid cycle, microglia-induced
+  - context: species=mouse, model_system=5xfad, tissue=brain, disease_state=alzheimer's
+- pmid_35917736::C1 | sodium butyrate -> hypothalamic microgliosis | effect=decrease | source=pmid_35917736 | evidence_weight=4.70
+  - summary: Sodium butyrate reduced hypothalamic microgliosis in high-fat-diet mice.
+  - mechanism tags: hypothalamic inflammation, microglial activation
+  - context: species=mouse, model_system=high-fat-diet, tissue=hypothalamus, disease_state=overnutrition, administration_route=oral
+- pmid_36555338::C1 | sodium butyrate -> neuroinflammation | effect=decrease | source=pmid_36555338 | evidence_weight=4.50
+  - summary: Sodium butyrate supplementation decreased neuroinflammatory response in mice with ethanol-induced inflammation, even when gut dysbiosis was worsened by antibiotics.
+  - mechanism tags: gut-brain axis
+  - context: species=mouse, model_system=mouse model of binge-like ethanol drinking, disease_state=ethanol-induced neuroinflammation, microbiome_status=dysbiosis worsened by antibiotics
+- pmid_36709599::C1 | sodium butyrate -> neuroinflammation | effect=decrease | source=pmid_36709599 | evidence_weight=4.80
+  - summary: Sodium butyrate decreased neuroinflammation in chronic alcohol-exposed mice.
+  - mechanism tags: gpr109a activation, microglia-mediated, ppar-γ increase, tlr4/nf-κb signaling downregulation
+  - context: species=mouse, model_system=chronic alcohol exposure, tissue=hippocampus, cortex, disease_state=chronic alcohol damage, barrier_status=improved gut barrier integrity, administration_route=oral or systemic (implied by study context), dose_level=not specified in summary, time_horizon=chronic
+- pmid_36839287::C1 | sodium butyrate -> motor performance | effect=increase | source=pmid_36839287 | evidence_weight=4.60
+  - summary: Sodium butyrate improved motor performance in MPTP-induced Parkinson's disease mice.
+  - mechanism tags: tlr4/myd88/nf-κb pathway inhibition
+  - context: species=mouse, model_system=mptp-induced parkinson's disease, disease_state=parkinson's disease, administration_route=not specified, time_horizon=not specified
+- pmid_37318680::C1 | sodium butyrate -> infarct volume | effect=decrease | source=pmid_37318680 | evidence_weight=4.70
+  - summary: Sodium butyrate decreased infarct volume in diabetic stroke mice.
+  - mechanism tags: anti-inflammatory microglial polarization, neuroinflammation suppression, regulatory t cells, tgf-β signaling
+  - context: species=mouse, model_system=diabetic-stroke, disease_state=diabetic stroke, time_horizon=28-day
+- pmid_37665564::C1 | sodium butyrate -> colitis severity | effect=decrease | source=pmid_37665564 | evidence_weight=4.60
+  - summary: Sodium butyrate reduced colitis severity in DSS-induced ulcerative colitis mice.
+  - mechanism tags: hif-1α activation, nrf2 activation
+  - context: species=mouse, model_system=dss ulcerative-colitis, tissue=intestine, disease_state=ulcerative colitis
+- pmid_38340407::C1 | sodium butyrate -> neuroinflammation | effect=decrease | source=pmid_38340407 | evidence_weight=4.30
+  - summary: Sodium butyrate alleviates lead-induced neuroinflammation.
+  - mechanism tags: acss2/h3k9ac/bdnf pathway, microglial stat3 inhibition
+  - context: species=mouse
+- pmid_39962509::C1 | sodium butyrate -> neuroinflammation | effect=decrease | source=pmid_39962509 | evidence_weight=4.70
+  - summary: Sodium butyrate attenuates microglia-mediated neuroinflammation in cardiac arrest mice.
+  - mechanism tags: microbiome-gut-brain axis, tlr4/myd88/nf-κb pathway inhibition
+  - context: species=mouse, model_system=cardiac arrest, disease_state=neuroinflammation, barrier_status=improved intestinal barrier integrity, administration_route=not specified, time_horizon=not specified
+- pmid_40961414::C1 | scfa supplementation -> ventriculomegaly | effect=decrease | source=pmid_40961414 | evidence_weight=4.60
+  - summary: SCFA supplementation after TBI reduced ventriculomegaly in mice.
+  - mechanism tags: gut-brain-microglia axis
+  - context: species=mouse, model_system=controlled cortical impact, disease_state=traumatic brain injury, administration_route=supplementation, time_horizon=after injury
+- pmid_41279475::C1 | butyrate -> amyloid-beta 42 uptake | effect=decrease | source=pmid_41279475 | evidence_weight=4.60
+  - summary: Butyrate decreases Aβ42 uptake in endothelial cells under amyloid stress.
+  - mechanism tags: akt signaling, erk signaling, p-glycoprotein efflux transporter
+  - context: species=mouse, tissue=blood-brain barrier, disease_state=alzheimer's disease
+- pmid_41366428::C1 | microbial production of acetate and butyrate -> long-term behavioral recovery | effect=increase | source=pmid_41366428 | evidence_weight=4.70
+  - summary: Microbial production of acetate and butyrate improved long-term behavioral recovery after traumatic brain injury.
+  - mechanism tags: neurogenesis, neuroinflammation, phosphorylated tau deposition
+  - context: species=mouse, model_system=controlled cortical impact, disease_state=traumatic brain injury, administration_route=diet engineered to increase microbial production
+- pmid_41786890::C1 | butyrate -> amyloid-beta secretion | effect=decrease | source=pmid_41786890 | evidence_weight=4.60
+  - summary: Butyrate decreased amyloid-beta secretion in SAMP8 mice.
+  - mechanism tags: amyloid production
+  - context: species=mouse, model_system=samp8 mice, tissue=gut, disease_state=alzheimer's, administration_route=oral, dose_level=not specified, time_horizon=not specified
+
+## Ranked Claims
+
+- score=39 | evidence_weight=5.80 | tier=headline | pmid_32556930::C1 | sodium butyrate -> neuroinflammation
+- score=38 | evidence_weight=4.60 | tier=headline | pmid_33785315::C1 | sodium butyrate -> neuroinflammation
+- score=38 | evidence_weight=4.50 | tier=headline | pmid_36555338::C1 | sodium butyrate -> neuroinflammation
+- score=38 | evidence_weight=4.80 | tier=headline | pmid_36709599::C1 | sodium butyrate -> neuroinflammation
+- score=38 | evidence_weight=4.60 | tier=headline | pmid_37665564::C1 | sodium butyrate -> colitis severity
+- score=38 | evidence_weight=4.70 | tier=headline | pmid_39962509::C1 | sodium butyrate -> neuroinflammation
+- score=35 | evidence_weight=4.30 | tier=headline | pmid_38340407::C1 | sodium butyrate -> neuroinflammation
+- score=28 | evidence_weight=5.50 | tier=mechanistic | C2 | high-fiber inulin diet -> microglial profile
+- score=28 | evidence_weight=4.60 | tier=mechanistic | pmid_31835282::C1 | clostridium butyricum -> microglial activation
+- score=23 | evidence_weight=4.70 | tier=supporting | pmid_29229502::C1 | sodium butyrate -> depression-like behaviors
+- score=23 | evidence_weight=5.50 | tier=supporting | pmid_30154787::C1 | high-fiber inulin diet -> cecal butyrate
+- score=23 | evidence_weight=4.70 | tier=supporting | pmid_35917736::C1 | sodium butyrate -> hypothalamic microgliosis
+- score=23 | evidence_weight=4.60 | tier=supporting | pmid_36839287::C1 | sodium butyrate -> motor performance
+- score=23 | evidence_weight=4.70 | tier=supporting | pmid_37318680::C1 | sodium butyrate -> infarct volume
+- score=23 | evidence_weight=4.60 | tier=supporting | pmid_40961414::C1 | scfa supplementation -> ventriculomegaly
+- score=23 | evidence_weight=4.70 | tier=supporting | pmid_41366428::C1 | microbial production of acetate and butyrate -> long-term behavioral recovery
+- score=23 | evidence_weight=4.60 | tier=supporting | pmid_41786890::C1 | butyrate -> amyloid-beta secretion
+- score=22 | evidence_weight=4.60 | tier=supporting | pmid_41279475::C1 | butyrate -> amyloid-beta 42 uptake
+- score=18 | evidence_weight=5.50 | tier=biomarker | C3 | pharmacologic butyrate treatment -> il-1beta, tnf, il-6 expression
+
+## Evidence Balance
+
+- butyrate -> amyloid-beta 42 uptake | leading_effect=decrease | net_support=4.60 | claims=1
+  - weighted support: decrease=4.60
+- butyrate -> amyloid-beta secretion | leading_effect=decrease | net_support=4.60 | claims=1
+  - weighted support: decrease=4.60
+- clostridium butyricum -> microglial activation | leading_effect=decrease | net_support=4.60 | claims=1
+  - weighted support: decrease=4.60
+- high-fiber inulin diet -> cecal butyrate | leading_effect=increase | net_support=-5.50 | claims=1
+  - weighted support: increase=5.50
+- high-fiber inulin diet -> microglial profile | leading_effect=decrease | net_support=5.50 | claims=1
+  - weighted support: decrease=5.50
+- microbial production of acetate and butyrate -> long-term behavioral recovery | leading_effect=increase | net_support=-4.70 | claims=1
+  - weighted support: increase=4.70
+- pharmacologic butyrate treatment -> il-1beta, tnf, il-6 expression | leading_effect=decrease | net_support=5.50 | claims=1
+  - weighted support: decrease=5.50
+- scfa supplementation -> ventriculomegaly | leading_effect=decrease | net_support=4.60 | claims=1
+  - weighted support: decrease=4.60
+- sodium butyrate -> colitis severity | leading_effect=decrease | net_support=4.60 | claims=1
+  - weighted support: decrease=4.60
+- sodium butyrate -> depression-like behaviors | leading_effect=decrease | net_support=4.70 | claims=1
+  - weighted support: decrease=4.70
+- sodium butyrate -> hypothalamic microgliosis | leading_effect=decrease | net_support=4.70 | claims=1
+  - weighted support: decrease=4.70
+- sodium butyrate -> infarct volume | leading_effect=decrease | net_support=4.70 | claims=1
+  - weighted support: decrease=4.70
+- sodium butyrate -> motor performance | leading_effect=increase | net_support=-4.60 | claims=1
+  - weighted support: increase=4.60
+- sodium butyrate -> neuroinflammation | leading_effect=decrease | net_support=17.10 | claims=6
+  - weighted support: increase=5.80, decrease=22.90
+
+## Family-Split Evidence Balance
+
+- intervention_family=direct butyrate | disease_family=acute_injury | outcome=infarct volume | leading_effect=decrease | net_support=4.70 | claims=1
+  - weighted support: decrease=4.70
+- intervention_family=direct butyrate | disease_family=acute_injury | outcome=neuroinflammation | leading_effect=decrease | net_support=4.70 | claims=1
+  - weighted support: decrease=4.70
+- intervention_family=direct butyrate | disease_family=aging | outcome=il-1beta, tnf, il-6 expression | leading_effect=decrease | net_support=5.50 | claims=1
+  - weighted support: decrease=5.50
+- intervention_family=direct butyrate | disease_family=alcohol_related | outcome=neuroinflammation | leading_effect=decrease | net_support=9.30 | claims=2
+  - weighted support: decrease=9.30
+- intervention_family=direct butyrate | disease_family=alzheimer_related | outcome=amyloid-beta 42 uptake | leading_effect=decrease | net_support=4.60 | claims=1
+  - weighted support: decrease=4.60
+- intervention_family=direct butyrate | disease_family=alzheimer_related | outcome=amyloid-beta secretion | leading_effect=decrease | net_support=4.60 | claims=1
+  - weighted support: decrease=4.60
+- intervention_family=direct butyrate | disease_family=alzheimer_related | outcome=neuroinflammation | leading_effect=decrease | net_support=4.60 | claims=1
+  - weighted support: decrease=4.60
+- intervention_family=direct butyrate | disease_family=behavioral_inflammation | outcome=depression-like behaviors | leading_effect=decrease | net_support=4.70 | claims=1
+  - weighted support: decrease=4.70
+- intervention_family=direct butyrate | disease_family=gut_inflammation | outcome=colitis severity | leading_effect=decrease | net_support=4.60 | claims=1
+  - weighted support: decrease=4.60
+- intervention_family=direct butyrate | disease_family=metabolic_inflammation | outcome=hypothalamic microgliosis | leading_effect=decrease | net_support=4.70 | claims=1
+  - weighted support: decrease=4.70
+- intervention_family=direct butyrate | disease_family=other | outcome=neuroinflammation | leading_effect=decrease | net_support=4.30 | claims=1
+  - weighted support: decrease=4.30
+- intervention_family=direct butyrate | disease_family=parkinsonian | outcome=motor performance | leading_effect=increase | net_support=-4.60 | claims=1
+  - weighted support: increase=4.60
+- intervention_family=direct butyrate | disease_family=parkinsonian | outcome=neuroinflammation | leading_effect=increase | net_support=-5.80 | claims=1
+  - weighted support: increase=5.80
+- intervention_family=microbiome-mediated butyrate | disease_family=acute_injury | outcome=long-term behavioral recovery | leading_effect=increase | net_support=-4.70 | claims=1
+  - weighted support: increase=4.70
+- intervention_family=microbiome-mediated butyrate | disease_family=aging | outcome=cecal butyrate | leading_effect=increase | net_support=-5.50 | claims=1
+  - weighted support: increase=5.50
+- intervention_family=microbiome-mediated butyrate | disease_family=aging | outcome=microglial profile | leading_effect=decrease | net_support=5.50 | claims=1
+  - weighted support: decrease=5.50
+- intervention_family=microbiome-mediated butyrate | disease_family=alzheimer_related | outcome=microglial activation | leading_effect=decrease | net_support=4.60 | claims=1
+  - weighted support: decrease=4.60
+- intervention_family=mixed scfa intervention | disease_family=acute_injury | outcome=ventriculomegaly | leading_effect=decrease | net_support=4.60 | claims=1
+  - weighted support: decrease=4.60
+
+## Contradictions
+
+- pmid_32556930::C1 vs pmid_33785315::C1 | sodium butyrate -> neuroinflammation | kind=context_conditioned
+  - differing context axes: administration_route, disease_state, dose_level, model_system, time_horizon
+  - hypothesis: The sign flip may be explained by hidden moderators on axes: administration_route, disease_state, dose_level, model_system, time_horizon. Claim pmid_32556930::C1 and claim pmid_33785315::C1 may both be true under different contexts.
+- pmid_32556930::C1 vs pmid_36555338::C1 | sodium butyrate -> neuroinflammation | kind=context_conditioned
+  - differing context axes: administration_route, disease_state, dose_level, microbiome_status, model_system, time_horizon, tissue
+  - hypothesis: The sign flip may be explained by hidden moderators on axes: administration_route, disease_state, dose_level, microbiome_status, model_system, time_horizon, tissue. Claim pmid_32556930::C1 and claim pmid_36555338::C1 may both be true under different contexts.
+- pmid_32556930::C1 vs pmid_36709599::C1 | sodium butyrate -> neuroinflammation | kind=context_conditioned
+  - differing context axes: administration_route, barrier_status, disease_state, dose_level, model_system, time_horizon, tissue
+  - hypothesis: The sign flip may be explained by hidden moderators on axes: administration_route, barrier_status, disease_state, dose_level, model_system, time_horizon, tissue. Claim pmid_32556930::C1 and claim pmid_36709599::C1 may both be true under different contexts.
+- pmid_32556930::C1 vs pmid_38340407::C1 | sodium butyrate -> neuroinflammation | kind=context_conditioned
+  - differing context axes: administration_route, disease_state, dose_level, model_system, time_horizon, tissue
+  - hypothesis: The sign flip may be explained by hidden moderators on axes: administration_route, disease_state, dose_level, model_system, time_horizon, tissue. Claim pmid_32556930::C1 and claim pmid_38340407::C1 may both be true under different contexts.
+- pmid_32556930::C1 vs pmid_39962509::C1 | sodium butyrate -> neuroinflammation | kind=context_conditioned
+  - differing context axes: barrier_status, disease_state, dose_level, model_system, tissue
+  - hypothesis: The sign flip may be explained by hidden moderators on axes: barrier_status, disease_state, dose_level, model_system, tissue. Claim pmid_32556930::C1 and claim pmid_39962509::C1 may both be true under different contexts.
+
+## Mechanism Families
+
+- microglial activation | evidence_count=3
+  - claims: pmid_29229502::C1, pmid_32556930::C1, pmid_35917736::C1
+  - intervention/outcomes: sodium butyrate -> depression-like behaviors, sodium butyrate -> hypothalamic microgliosis, sodium butyrate -> neuroinflammation
+- neuroinflammation | evidence_count=3
+  - claims: C2, pmid_29229502::C1, pmid_41366428::C1
+  - intervention/outcomes: high-fiber inulin diet -> microglial profile, microbial production of acetate and butyrate -> long-term behavioral recovery, sodium butyrate -> depression-like behaviors
+- gut microbiome | evidence_count=2
+  - claims: C2, pmid_30154787::C1
+  - intervention/outcomes: high-fiber inulin diet -> cecal butyrate, high-fiber inulin diet -> microglial profile
+- gut-brain axis | evidence_count=2
+  - claims: pmid_31835282::C1, pmid_36555338::C1
+  - intervention/outcomes: clostridium butyricum -> microglial activation, sodium butyrate -> neuroinflammation
+- tlr4/myd88/nf-κb pathway inhibition | evidence_count=2
+  - claims: pmid_36839287::C1, pmid_39962509::C1
+  - intervention/outcomes: sodium butyrate -> motor performance, sodium butyrate -> neuroinflammation
+- acss2/h3k9ac/bdnf pathway | evidence_count=1
+  - claims: pmid_38340407::C1
+  - intervention/outcomes: sodium butyrate -> neuroinflammation
+- akt signaling | evidence_count=1
+  - claims: pmid_41279475::C1
+  - intervention/outcomes: butyrate -> amyloid-beta 42 uptake
+- amyloid production | evidence_count=1
+  - claims: pmid_41786890::C1
+  - intervention/outcomes: butyrate -> amyloid-beta secretion
+- anti-inflammatory | evidence_count=1
+  - claims: C3
+  - intervention/outcomes: pharmacologic butyrate treatment -> il-1beta, tnf, il-6 expression
+- anti-inflammatory microglial polarization | evidence_count=1
+  - claims: pmid_37318680::C1
+  - intervention/outcomes: sodium butyrate -> infarct volume
+- astrocyte activation | evidence_count=1
+  - claims: pmid_32556930::C1
+  - intervention/outcomes: sodium butyrate -> neuroinflammation
+- butyrate | evidence_count=1
+  - claims: pmid_31835282::C1
+  - intervention/outcomes: clostridium butyricum -> microglial activation
+- erk signaling | evidence_count=1
+  - claims: pmid_41279475::C1
+  - intervention/outcomes: butyrate -> amyloid-beta 42 uptake
+- gpr109a activation | evidence_count=1
+  - claims: pmid_36709599::C1
+  - intervention/outcomes: sodium butyrate -> neuroinflammation
+- gut-brain-microglia axis | evidence_count=1
+  - claims: pmid_40961414::C1
+  - intervention/outcomes: scfa supplementation -> ventriculomegaly
+- hdac_inhibition | evidence_count=1
+  - claims: C3
+  - intervention/outcomes: pharmacologic butyrate treatment -> il-1beta, tnf, il-6 expression
+- hif-1α activation | evidence_count=1
+  - claims: pmid_37665564::C1
+  - intervention/outcomes: sodium butyrate -> colitis severity
+- hypothalamic inflammation | evidence_count=1
+  - claims: pmid_35917736::C1
+  - intervention/outcomes: sodium butyrate -> hypothalamic microgliosis
+- inflammation-amyloid cycle | evidence_count=1
+  - claims: pmid_33785315::C1
+  - intervention/outcomes: sodium butyrate -> neuroinflammation
+- microbiome-gut-brain axis | evidence_count=1
+  - claims: pmid_39962509::C1
+  - intervention/outcomes: sodium butyrate -> neuroinflammation
+- microglia-induced | evidence_count=1
+  - claims: pmid_33785315::C1
+  - intervention/outcomes: sodium butyrate -> neuroinflammation
+- microglia-mediated | evidence_count=1
+  - claims: pmid_36709599::C1
+  - intervention/outcomes: sodium butyrate -> neuroinflammation
+- microglial stat3 inhibition | evidence_count=1
+  - claims: pmid_38340407::C1
+  - intervention/outcomes: sodium butyrate -> neuroinflammation
+- neurogenesis | evidence_count=1
+  - claims: pmid_41366428::C1
+  - intervention/outcomes: microbial production of acetate and butyrate -> long-term behavioral recovery
+- neuroinflammation suppression | evidence_count=1
+  - claims: pmid_37318680::C1
+  - intervention/outcomes: sodium butyrate -> infarct volume
+- nrf2 activation | evidence_count=1
+  - claims: pmid_37665564::C1
+  - intervention/outcomes: sodium butyrate -> colitis severity
+- p-glycoprotein efflux transporter | evidence_count=1
+  - claims: pmid_41279475::C1
+  - intervention/outcomes: butyrate -> amyloid-beta 42 uptake
+- phosphorylated tau deposition | evidence_count=1
+  - claims: pmid_41366428::C1
+  - intervention/outcomes: microbial production of acetate and butyrate -> long-term behavioral recovery
+- ppar-γ increase | evidence_count=1
+  - claims: pmid_36709599::C1
+  - intervention/outcomes: sodium butyrate -> neuroinflammation
+- pro-inflammatory markers | evidence_count=1
+  - claims: pmid_32556930::C1
+  - intervention/outcomes: sodium butyrate -> neuroinflammation
+- regulatory t cells | evidence_count=1
+  - claims: pmid_37318680::C1
+  - intervention/outcomes: sodium butyrate -> infarct volume
+- scfas | evidence_count=1
+  - claims: pmid_30154787::C1
+  - intervention/outcomes: high-fiber inulin diet -> cecal butyrate
+- tgf-β signaling | evidence_count=1
+  - claims: pmid_37318680::C1
+  - intervention/outcomes: sodium butyrate -> infarct volume
+- tlr4/nf-κb signaling downregulation | evidence_count=1
+  - claims: pmid_36709599::C1
+  - intervention/outcomes: sodium butyrate -> neuroinflammation
+
+## Experiment Proposals
+
+- Test whether dose_level, administration_route, model_system moderates the effect of sodium butyrate on neuroinflammation
+  - contradiction claims: pmid_32556930::C1, pmid_33785315::C1
+  - rationale: Claims pmid_32556930::C1 and pmid_33785315::C1 may only disagree because context axes differ: dose_level, administration_route, model_system. A factorial design can separate true sign flips from hidden moderators.
+  - candidate moderators: dose_level, administration_route, model_system
+  - design:
+    - Run a factorial intervention varying dose_level, administration_route, model_system alongside sodium butyrate vs control.
+    - Measure neuroinflammation and any mechanistic mediators tied to ['astrocyte activation', 'microglial activation', 'pro-inflammatory markers'].
+    - Include enough power to detect interaction effects, not just main effects.
+  - predictions:
+    - If claim pmid_32556930::C1 is right, sodium butyrate should increase neuroinflammation in context A.
+    - If claim pmid_33785315::C1 is right, sodium butyrate should decrease neuroinflammation in context B.
+    - If the moderator hypothesis is right, the effect sign should depend on the manipulated context axis rather than stay globally fixed.
+
+- Test whether microbiome_status, dose_level, administration_route moderates the effect of sodium butyrate on neuroinflammation
+  - contradiction claims: pmid_32556930::C1, pmid_36555338::C1
+  - rationale: Claims pmid_32556930::C1 and pmid_36555338::C1 may only disagree because context axes differ: microbiome_status, dose_level, administration_route. A factorial design can separate true sign flips from hidden moderators.
+  - candidate moderators: microbiome_status, dose_level, administration_route
+  - design:
+    - Run a factorial intervention varying microbiome_status, dose_level, administration_route alongside sodium butyrate vs control.
+    - Measure neuroinflammation and any mechanistic mediators tied to ['astrocyte activation', 'microglial activation', 'pro-inflammatory markers'].
+    - Include enough power to detect interaction effects, not just main effects.
+  - predictions:
+    - If claim pmid_32556930::C1 is right, sodium butyrate should increase neuroinflammation in context A.
+    - If claim pmid_36555338::C1 is right, sodium butyrate should decrease neuroinflammation in context B.
+    - If the moderator hypothesis is right, the effect sign should depend on the manipulated context axis rather than stay globally fixed.
+
+- Test whether barrier_status, dose_level, administration_route moderates the effect of sodium butyrate on neuroinflammation
+  - contradiction claims: pmid_32556930::C1, pmid_36709599::C1
+  - rationale: Claims pmid_32556930::C1 and pmid_36709599::C1 may only disagree because context axes differ: barrier_status, dose_level, administration_route. A factorial design can separate true sign flips from hidden moderators.
+  - candidate moderators: barrier_status, dose_level, administration_route
+  - design:
+    - Run a factorial intervention varying barrier_status, dose_level, administration_route alongside sodium butyrate vs control.
+    - Measure neuroinflammation and any mechanistic mediators tied to ['astrocyte activation', 'microglial activation', 'pro-inflammatory markers'].
+    - Include enough power to detect interaction effects, not just main effects.
+  - predictions:
+    - If claim pmid_32556930::C1 is right, sodium butyrate should increase neuroinflammation in context A.
+    - If claim pmid_36709599::C1 is right, sodium butyrate should decrease neuroinflammation in context B.
+    - If the moderator hypothesis is right, the effect sign should depend on the manipulated context axis rather than stay globally fixed.
+
+- Test whether dose_level, administration_route, model_system moderates the effect of sodium butyrate on neuroinflammation
+  - contradiction claims: pmid_32556930::C1, pmid_38340407::C1
+  - rationale: Claims pmid_32556930::C1 and pmid_38340407::C1 may only disagree because context axes differ: dose_level, administration_route, model_system. A factorial design can separate true sign flips from hidden moderators.
+  - candidate moderators: dose_level, administration_route, model_system
+  - design:
+    - Run a factorial intervention varying dose_level, administration_route, model_system alongside sodium butyrate vs control.
+    - Measure neuroinflammation and any mechanistic mediators tied to ['astrocyte activation', 'microglial activation', 'pro-inflammatory markers'].
+    - Include enough power to detect interaction effects, not just main effects.
+  - predictions:
+    - If claim pmid_32556930::C1 is right, sodium butyrate should increase neuroinflammation in context A.
+    - If claim pmid_38340407::C1 is right, sodium butyrate should decrease neuroinflammation in context B.
+    - If the moderator hypothesis is right, the effect sign should depend on the manipulated context axis rather than stay globally fixed.
+
+- Test whether barrier_status, dose_level, model_system moderates the effect of sodium butyrate on neuroinflammation
+  - contradiction claims: pmid_32556930::C1, pmid_39962509::C1
+  - rationale: Claims pmid_32556930::C1 and pmid_39962509::C1 may only disagree because context axes differ: barrier_status, dose_level, model_system. A factorial design can separate true sign flips from hidden moderators.
+  - candidate moderators: barrier_status, dose_level, model_system
+  - design:
+    - Run a factorial intervention varying barrier_status, dose_level, model_system alongside sodium butyrate vs control.
+    - Measure neuroinflammation and any mechanistic mediators tied to ['astrocyte activation', 'microglial activation', 'pro-inflammatory markers'].
+    - Include enough power to detect interaction effects, not just main effects.
+  - predictions:
+    - If claim pmid_32556930::C1 is right, sodium butyrate should increase neuroinflammation in context A.
+    - If claim pmid_39962509::C1 is right, sodium butyrate should decrease neuroinflammation in context B.
+    - If the moderator hypothesis is right, the effect sign should depend on the manipulated context axis rather than stay globally fixed.

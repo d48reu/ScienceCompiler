@@ -1,0 +1,6 @@
+Source: PMID 37318680
+Title: Effect and Mechanism of Sodium Butyrate on Neuronal Recovery and Prognosis in Diabetic Stroke
+URL: https://pubmed.ncbi.nlm.nih.gov/37318680/
+
+Study summary:
+This diabetic-stroke mouse study reported that sodium butyrate reduced infarct volume, improved 28-day survival, and improved long-term neurological recovery. The study linked these benefits to amplification of regulatory T cells in brain and blood, TGF-β signaling, anti-inflammatory microglial polarization, and suppression of neuroinflammation. The paper frames sodium butyrate as an immune-modulating therapy for the inflammatory environment of diabetic stroke.

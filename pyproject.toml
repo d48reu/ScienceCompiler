@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "science-compiler"
+version = "0.1.0"
+description = "MVP for compiling structured scientific claims into contradictions, rival mechanisms, and experiment proposals"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [{name = "Hermes Agent"}]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+science-compiler = "science_compiler.cli:main"
+science-compiler-extract = "science_compiler.extract_cli:main"
+science-compiler-raw-extract = "science_compiler.raw_extract_cli:main"
+science-compiler-review-queue = "science_compiler.review_queue_cli:main"
+science-compiler-apply-review = "science_compiler.review_apply_cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

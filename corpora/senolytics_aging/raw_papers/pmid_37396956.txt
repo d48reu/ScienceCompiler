@@ -1,0 +1,6 @@
+Source: PMID 37396956
+Title: Senolytic treatment with dasatinib and quercetin does not improve overall influenza responses in aged mice
+URL: https://pubmed.ncbi.nlm.nih.gov/37396956/
+
+Study summary:
+This aged-mouse influenza study tested whether dasatinib plus quercetin could improve immune responses to flu infection. The treatment failed to improve weight loss, viral load, lung damage, memory development, antibody production, or protection against reinfection. It also caused a transient decrease in flu-specific CD8 T-cell infiltration during primary infection. The paper concludes that dasatinib plus quercetin may not be an appropriate senolytic strategy for improving aged immune responses to influenza.

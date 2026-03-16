@@ -1,0 +1,1445 @@
+{
+  "summary": {
+    "raw_claim_count": 16,
+    "claim_count": 16,
+    "contradiction_count": 0,
+    "mechanism_family_count": 15,
+    "experiment_proposal_count": 0
+  },
+  "claims": [
+    {
+      "claim_id": "pmid_29988130::C1",
+      "source_id": "pmid_29988130",
+      "intervention": "dasatinib plus quercetin",
+      "outcome": "physical function and lifespan",
+      "effect": "increase",
+      "summary": "Intermittent senolytic treatment with dasatinib plus quercetin improves physical function and increases lifespan in old mice.",
+      "mechanism_tags": [
+        "senescent cell clearance"
+      ],
+      "confidence": "high",
+      "evidence_type": "in_vivo",
+      "context": {
+        "species": "mouse",
+        "model_system": "naturally aged and senescent cell-transplanted",
+        "tissue": null,
+        "disease_state": null,
+        "microbiome_status": null,
+        "barrier_status": null,
+        "administration_route": "oral",
+        "dose_level": null,
+        "time_horizon": "late-life intervention",
+        "notes": null
+      },
+      "evidence_weight": 5.5
+    },
+    {
+      "claim_id": "pmid_30279143::C1",
+      "source_id": "pmid_30279143",
+      "intervention": "fisetin",
+      "outcome": "lifespan extension",
+      "effect": "increase",
+      "summary": "Fisetin extends both median and maximum lifespan in progeroid and naturally aged mice when administered late in life.",
+      "mechanism_tags": [
+        "senescence reduction",
+        "senolytic activity"
+      ],
+      "confidence": "high",
+      "evidence_type": "in_vivo",
+      "context": {
+        "species": "mouse",
+        "model_system": "progeroid and naturally aged",
+        "tissue": null,
+        "disease_state": null,
+        "microbiome_status": null,
+        "barrier_status": null,
+        "administration_route": "oral",
+        "dose_level": null,
+        "time_horizon": "late in life",
+        "notes": null
+      },
+      "evidence_weight": 5.6
+    },
+    {
+      "claim_id": "pmid_30279143::C2",
+      "source_id": "pmid_30279143",
+      "intervention": "fisetin",
+      "outcome": "senescence marker reduction",
+      "effect": "decrease",
+      "summary": "Fisetin reduces senescence markers across multiple tissues and lowers SASP factors such as IL-6 and TNF-alpha in aged mice.",
+      "mechanism_tags": [
+        "sasp suppression",
+        "senolytic activity"
+      ],
+      "confidence": "high",
+      "evidence_type": "in_vivo",
+      "context": {
+        "species": "mouse",
+        "model_system": "progeroid and naturally aged",
+        "tissue": "multiple tissues",
+        "disease_state": null,
+        "microbiome_status": null,
+        "barrier_status": null,
+        "administration_route": "oral",
+        "dose_level": null,
+        "time_horizon": "late in life",
+        "notes": null
+      },
+      "evidence_weight": 5.7
+    },
+    {
+      "claim_id": "pmid_32509782::C1",
+      "source_id": "pmid_32509782",
+      "intervention": "navitoclax",
+      "outcome": "trabecular bone volume fraction",
+      "effect": "decrease",
+      "summary": "Navitoclax treatment causes rapid trabecular bone loss in aged mice.",
+      "mechanism_tags": [
+        "senescent cell clearance"
+      ],
+      "confidence": "high",
+      "evidence_type": "in_vivo",
+      "context": {
+        "species": "mouse",
+        "model_system": null,
+        "tissue": "trabecular bone",
+        "disease_state": "aged",
+        "microbiome_status": null,
+        "barrier_status": null,
+        "administration_route": null,
+        "dose_level": null,
+        "time_horizon": null,
+        "notes": null
+      },
+      "evidence_weight": 5.4
+    },
+    {
+      "claim_id": "pmid_32509782::C2",
+      "source_id": "pmid_32509782",
+      "intervention": "navitoclax",
+      "outcome": "osteoprogenitor and osteoblast function",
+      "effect": "decrease",
+      "summary": "Navitoclax strongly impairs osteoprogenitor and osteoblast function, causing cytotoxicity, apoptosis, and failure of mineralized matrix production.",
+      "mechanism_tags": [
+        "apoptosis",
+        "cytotoxicity"
+      ],
+      "confidence": "high",
+      "evidence_type": "in_vivo",
+      "context": {
+        "species": "mouse",
+        "model_system": null,
+        "tissue": "bone",
+        "disease_state": "aged",
+        "microbiome_status": null,
+        "barrier_status": null,
+        "administration_route": null,
+        "dose_level": null,
+        "time_horizon": null,
+        "notes": null
+      },
+      "evidence_weight": 5.5
+    },
+    {
+      "claim_id": "pmid_33832488::C1",
+      "source_id": "pmid_33832488",
+      "intervention": "dasatinib plus quercetin",
+      "outcome": "liver disease progression",
+      "effect": "increase",
+      "summary": "The senolytic cocktail dasatinib plus quercetin mildly exacerbated obesity- and age-dependent liver disease progression and tumorigenesis in mice.",
+      "mechanism_tags": [
+        "senolytic therapy"
+      ],
+      "confidence": "medium",
+      "evidence_type": "in_vivo",
+      "context": {
+        "species": "mouse",
+        "model_system": null,
+        "tissue": null,
+        "disease_state": "obesity- and age-dependent nafld/hcc",
+        "microbiome_status": null,
+        "barrier_status": null,
+        "administration_route": "oral",
+        "dose_level": null,
+        "time_horizon": null,
+        "notes": null
+      },
+      "evidence_weight": 4.4
+    },
+    {
+      "claim_id": "pmid_34103349::C1",
+      "source_id": "pmid_34103349",
+      "intervention": "mixed senolytic treatment",
+      "outcome": "coronavirus-related mortality in old mice",
+      "effect": "decrease",
+      "summary": "Senolytic interventions significantly reduced mortality in old mice exposed to a SARS-CoV-2-related mouse coronavirus.",
+      "mechanism_tags": [
+        "reduced inflammatory amplification",
+        "senescent cell clearance"
+      ],
+      "confidence": "high",
+      "evidence_type": "in_vivo",
+      "context": {
+        "species": "mouse",
+        "model_system": "old mice",
+        "tissue": null,
+        "disease_state": "coronavirus infection",
+        "microbiome_status": null,
+        "barrier_status": null,
+        "administration_route": "oral",
+        "dose_level": null,
+        "time_horizon": null,
+        "notes": null
+      },
+      "evidence_weight": 5.6
+    },
+    {
+      "claim_id": "pmid_34480023::C1",
+      "source_id": "pmid_34480023",
+      "intervention": "dasatinib plus quercetin",
+      "outcome": "age-dependent intervertebral disc degeneration",
+      "effect": "decrease",
+      "summary": "Long-term weekly dasatinib plus quercetin treatment ameliorates age-dependent intervertebral disc degeneration in mice, with earlier or mid-life intervention being more effective than very late treatment.",
+      "mechanism_tags": [
+        "reduction of sasp molecules",
+        "reduction of senescence markers",
+        "senolytic activity"
+      ],
+      "confidence": "high",
+      "evidence_type": "in_vivo",
+      "context": {
+        "species": "mouse",
+        "model_system": null,
+        "tissue": null,
+        "disease_state": "age-dependent intervertebral disc degeneration",
+        "microbiome_status": null,
+        "barrier_status": null,
+        "administration_route": "weekly treatment",
+        "dose_level": null,
+        "time_horizon": "long-term",
+        "notes": null
+      },
+      "evidence_weight": 5.7
+    },
+    {
+      "claim_id": "pmid_35869934::C1",
+      "source_id": "pmid_35869934",
+      "intervention": "dasatinib plus quercetin",
+      "outcome": "hepatocellular carcinoma incidence",
+      "effect": "decrease",
+      "summary": "Senolytic treatment with dasatinib plus quercetin sharply reduced hepatocellular carcinoma incidence in Sod1 knockout mice.",
+      "mechanism_tags": [
+        "inflammation reduction",
+        "senescence reduction"
+      ],
+      "confidence": "high",
+      "evidence_type": "in_vivo",
+      "context": {
+        "species": "mouse",
+        "model_system": "sod1 knockout",
+        "tissue": "liver",
+        "disease_state": "accelerated aging",
+        "microbiome_status": null,
+        "barrier_status": null,
+        "administration_route": "oral",
+        "dose_level": null,
+        "time_horizon": null,
+        "notes": null
+      },
+      "evidence_weight": 5.7
+    },
+    {
+      "claim_id": "pmid_35869934::C2",
+      "source_id": "pmid_35869934",
+      "intervention": "dasatinib plus quercetin",
+      "outcome": "liver senescence and necroptosis",
+      "effect": "decrease",
+      "summary": "Senolytic treatment reduced senescence markers, SASP factors, inflammation, and necroptosis in the liver of Sod1 knockout mice.",
+      "mechanism_tags": [
+        "inflammation reduction",
+        "senolytic activity"
+      ],
+      "confidence": "high",
+      "evidence_type": "in_vivo",
+      "context": {
+        "species": "mouse",
+        "model_system": "sod1 knockout",
+        "tissue": "liver",
+        "disease_state": "accelerated aging",
+        "microbiome_status": null,
+        "barrier_status": null,
+        "administration_route": "oral",
+        "dose_level": null,
+        "time_horizon": null,
+        "notes": null
+      },
+      "evidence_weight": 5.7
+    },
+    {
+      "claim_id": "pmid_37296266::C1",
+      "source_id": "pmid_37296266",
+      "intervention": "fisetin",
+      "outcome": "metabolism and cognition",
+      "effect": "conditional",
+      "summary": "Monthly oral fisetin treatment improved metabolism and cognition in male mice but had negligible effects in females.",
+      "mechanism_tags": [
+        "senolytic"
+      ],
+      "confidence": "medium",
+      "evidence_type": "in_vivo",
+      "context": {
+        "species": "mouse",
+        "model_system": "c57bl/6",
+        "tissue": null,
+        "disease_state": null,
+        "microbiome_status": null,
+        "barrier_status": null,
+        "administration_route": "oral",
+        "dose_level": null,
+        "time_horizon": "monthly treatment",
+        "notes": "sex-specific effects"
+      },
+      "evidence_weight": 4.5
+    },
+    {
+      "claim_id": "pmid_37296266::C2",
+      "source_id": "pmid_37296266",
+      "intervention": "dasatinib plus quercetin",
+      "outcome": "metabolism and cognition",
+      "effect": "conditional",
+      "summary": "Monthly oral dasatinib plus quercetin treatment had minimal effects in male mice but was detrimental in females, increasing adiposity, elevating SASP-related markers, reducing energy metabolism, and worsening object-recognition memory.",
+      "mechanism_tags": [
+        "senolytic"
+      ],
+      "confidence": "medium",
+      "evidence_type": "in_vivo",
+      "context": {
+        "species": "mouse",
+        "model_system": "c57bl/6",
+        "tissue": null,
+        "disease_state": null,
+        "microbiome_status": null,
+        "barrier_status": null,
+        "administration_route": "oral",
+        "dose_level": null,
+        "time_horizon": "monthly treatment",
+        "notes": "sex-specific effects"
+      },
+      "evidence_weight": 4.5
+    },
+    {
+      "claim_id": "pmid_37396956::C1",
+      "source_id": "pmid_37396956",
+      "intervention": "dasatinib plus quercetin",
+      "outcome": "overall influenza responses",
+      "effect": "null",
+      "summary": "Senolytic treatment with dasatinib and quercetin does not improve overall influenza responses in aged mice.",
+      "mechanism_tags": [],
+      "confidence": "high",
+      "evidence_type": "in_vivo",
+      "context": {
+        "species": "mouse",
+        "model_system": null,
+        "tissue": null,
+        "disease_state": "influenza infection",
+        "microbiome_status": null,
+        "barrier_status": null,
+        "administration_route": null,
+        "dose_level": null,
+        "time_horizon": null,
+        "notes": "aged mice"
+      },
+      "evidence_weight": 5.2
+    },
+    {
+      "claim_id": "pmid_37396956::C2",
+      "source_id": "pmid_37396956",
+      "intervention": "dasatinib plus quercetin",
+      "outcome": "flu-specific cd8 t-cell infiltration",
+      "effect": "decrease",
+      "summary": "Dasatinib plus quercetin causes a transient decrease in flu-specific CD8 T-cell infiltration during primary infection in aged mice.",
+      "mechanism_tags": [
+        "immune cell infiltration"
+      ],
+      "confidence": "high",
+      "evidence_type": "in_vivo",
+      "context": {
+        "species": "mouse",
+        "model_system": null,
+        "tissue": "lung",
+        "disease_state": "influenza infection",
+        "microbiome_status": null,
+        "barrier_status": null,
+        "administration_route": null,
+        "dose_level": null,
+        "time_horizon": "transient",
+        "notes": "aged mice, primary infection"
+      },
+      "evidence_weight": 5.5
+    },
+    {
+      "claim_id": "pmid_38062873::C1",
+      "source_id": "pmid_38062873",
+      "intervention": "fisetin",
+      "outcome": "arterial function",
+      "effect": "increase",
+      "summary": "Intermittent fisetin supplementation improves arterial function in old mice.",
+      "mechanism_tags": [
+        "cellular senescence reduction",
+        "senolytic"
+      ],
+      "confidence": "high",
+      "evidence_type": "in_vivo",
+      "context": {
+        "species": "mouse",
+        "model_system": null,
+        "tissue": "vascular",
+        "disease_state": "aging",
+        "microbiome_status": null,
+        "barrier_status": null,
+        "administration_route": "oral",
+        "dose_level": null,
+        "time_horizon": "intermittent",
+        "notes": null
+      },
+      "evidence_weight": 5.7
+    },
+    {
+      "claim_id": "pmid_38062873::C2",
+      "source_id": "pmid_38062873",
+      "intervention": "fisetin",
+      "outcome": "cellular senescence",
+      "effect": "decrease",
+      "summary": "Fisetin decreases cellular senescence markers and SASP-associated inflammation in old mice.",
+      "mechanism_tags": [
+        "inflammation reduction",
+        "senolytic"
+      ],
+      "confidence": "high",
+      "evidence_type": "in_vivo",
+      "context": {
+        "species": "mouse",
+        "model_system": null,
+        "tissue": "vascular",
+        "disease_state": "aging",
+        "microbiome_status": null,
+        "barrier_status": null,
+        "administration_route": "oral",
+        "dose_level": null,
+        "time_horizon": "intermittent",
+        "notes": null
+      },
+      "evidence_weight": 5.7
+    }
+  ],
+  "ranked_claims": [
+    {
+      "score": 38,
+      "tier": "headline",
+      "evidence_weight": 4.5,
+      "claim": {
+        "claim_id": "pmid_37296266::C1",
+        "source_id": "pmid_37296266",
+        "intervention": "fisetin",
+        "outcome": "metabolism and cognition",
+        "effect": "conditional",
+        "summary": "Monthly oral fisetin treatment improved metabolism and cognition in male mice but had negligible effects in females.",
+        "mechanism_tags": [
+          "senolytic"
+        ],
+        "confidence": "medium",
+        "evidence_type": "in_vivo",
+        "context": {
+          "species": "mouse",
+          "model_system": "c57bl/6",
+          "tissue": null,
+          "disease_state": null,
+          "microbiome_status": null,
+          "barrier_status": null,
+          "administration_route": "oral",
+          "dose_level": null,
+          "time_horizon": "monthly treatment",
+          "notes": "sex-specific effects"
+        }
+      }
+    },
+    {
+      "score": 38,
+      "tier": "headline",
+      "evidence_weight": 4.5,
+      "claim": {
+        "claim_id": "pmid_37296266::C2",
+        "source_id": "pmid_37296266",
+        "intervention": "dasatinib plus quercetin",
+        "outcome": "metabolism and cognition",
+        "effect": "conditional",
+        "summary": "Monthly oral dasatinib plus quercetin treatment had minimal effects in male mice but was detrimental in females, increasing adiposity, elevating SASP-related markers, reducing energy metabolism, and worsening object-recognition memory.",
+        "mechanism_tags": [
+          "senolytic"
+        ],
+        "confidence": "medium",
+        "evidence_type": "in_vivo",
+        "context": {
+          "species": "mouse",
+          "model_system": "c57bl/6",
+          "tissue": null,
+          "disease_state": null,
+          "microbiome_status": null,
+          "barrier_status": null,
+          "administration_route": "oral",
+          "dose_level": null,
+          "time_horizon": "monthly treatment",
+          "notes": "sex-specific effects"
+        }
+      }
+    },
+    {
+      "score": 24,
+      "tier": "supporting",
+      "evidence_weight": 5.5,
+      "claim": {
+        "claim_id": "pmid_29988130::C1",
+        "source_id": "pmid_29988130",
+        "intervention": "dasatinib plus quercetin",
+        "outcome": "physical function and lifespan",
+        "effect": "increase",
+        "summary": "Intermittent senolytic treatment with dasatinib plus quercetin improves physical function and increases lifespan in old mice.",
+        "mechanism_tags": [
+          "senescent cell clearance"
+        ],
+        "confidence": "high",
+        "evidence_type": "in_vivo",
+        "context": {
+          "species": "mouse",
+          "model_system": "naturally aged and senescent cell-transplanted",
+          "tissue": null,
+          "disease_state": null,
+          "microbiome_status": null,
+          "barrier_status": null,
+          "administration_route": "oral",
+          "dose_level": null,
+          "time_horizon": "late-life intervention",
+          "notes": null
+        }
+      }
+    },
+    {
+      "score": 24,
+      "tier": "supporting",
+      "evidence_weight": 5.6,
+      "claim": {
+        "claim_id": "pmid_30279143::C1",
+        "source_id": "pmid_30279143",
+        "intervention": "fisetin",
+        "outcome": "lifespan extension",
+        "effect": "increase",
+        "summary": "Fisetin extends both median and maximum lifespan in progeroid and naturally aged mice when administered late in life.",
+        "mechanism_tags": [
+          "senescence reduction",
+          "senolytic activity"
+        ],
+        "confidence": "high",
+        "evidence_type": "in_vivo",
+        "context": {
+          "species": "mouse",
+          "model_system": "progeroid and naturally aged",
+          "tissue": null,
+          "disease_state": null,
+          "microbiome_status": null,
+          "barrier_status": null,
+          "administration_route": "oral",
+          "dose_level": null,
+          "time_horizon": "late in life",
+          "notes": null
+        }
+      }
+    },
+    {
+      "score": 24,
+      "tier": "supporting",
+      "evidence_weight": 5.7,
+      "claim": {
+        "claim_id": "pmid_30279143::C2",
+        "source_id": "pmid_30279143",
+        "intervention": "fisetin",
+        "outcome": "senescence marker reduction",
+        "effect": "decrease",
+        "summary": "Fisetin reduces senescence markers across multiple tissues and lowers SASP factors such as IL-6 and TNF-alpha in aged mice.",
+        "mechanism_tags": [
+          "sasp suppression",
+          "senolytic activity"
+        ],
+        "confidence": "high",
+        "evidence_type": "in_vivo",
+        "context": {
+          "species": "mouse",
+          "model_system": "progeroid and naturally aged",
+          "tissue": "multiple tissues",
+          "disease_state": null,
+          "microbiome_status": null,
+          "barrier_status": null,
+          "administration_route": "oral",
+          "dose_level": null,
+          "time_horizon": "late in life",
+          "notes": null
+        }
+      }
+    },
+    {
+      "score": 24,
+      "tier": "supporting",
+      "evidence_weight": 5.6,
+      "claim": {
+        "claim_id": "pmid_34103349::C1",
+        "source_id": "pmid_34103349",
+        "intervention": "mixed senolytic treatment",
+        "outcome": "coronavirus-related mortality in old mice",
+        "effect": "decrease",
+        "summary": "Senolytic interventions significantly reduced mortality in old mice exposed to a SARS-CoV-2-related mouse coronavirus.",
+        "mechanism_tags": [
+          "reduced inflammatory amplification",
+          "senescent cell clearance"
+        ],
+        "confidence": "high",
+        "evidence_type": "in_vivo",
+        "context": {
+          "species": "mouse",
+          "model_system": "old mice",
+          "tissue": null,
+          "disease_state": "coronavirus infection",
+          "microbiome_status": null,
+          "barrier_status": null,
+          "administration_route": "oral",
+          "dose_level": null,
+          "time_horizon": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "score": 24,
+      "tier": "supporting",
+      "evidence_weight": 5.7,
+      "claim": {
+        "claim_id": "pmid_34480023::C1",
+        "source_id": "pmid_34480023",
+        "intervention": "dasatinib plus quercetin",
+        "outcome": "age-dependent intervertebral disc degeneration",
+        "effect": "decrease",
+        "summary": "Long-term weekly dasatinib plus quercetin treatment ameliorates age-dependent intervertebral disc degeneration in mice, with earlier or mid-life intervention being more effective than very late treatment.",
+        "mechanism_tags": [
+          "reduction of sasp molecules",
+          "reduction of senescence markers",
+          "senolytic activity"
+        ],
+        "confidence": "high",
+        "evidence_type": "in_vivo",
+        "context": {
+          "species": "mouse",
+          "model_system": null,
+          "tissue": null,
+          "disease_state": "age-dependent intervertebral disc degeneration",
+          "microbiome_status": null,
+          "barrier_status": null,
+          "administration_route": "weekly treatment",
+          "dose_level": null,
+          "time_horizon": "long-term",
+          "notes": null
+        }
+      }
+    },
+    {
+      "score": 24,
+      "tier": "supporting",
+      "evidence_weight": 5.7,
+      "claim": {
+        "claim_id": "pmid_35869934::C1",
+        "source_id": "pmid_35869934",
+        "intervention": "dasatinib plus quercetin",
+        "outcome": "hepatocellular carcinoma incidence",
+        "effect": "decrease",
+        "summary": "Senolytic treatment with dasatinib plus quercetin sharply reduced hepatocellular carcinoma incidence in Sod1 knockout mice.",
+        "mechanism_tags": [
+          "inflammation reduction",
+          "senescence reduction"
+        ],
+        "confidence": "high",
+        "evidence_type": "in_vivo",
+        "context": {
+          "species": "mouse",
+          "model_system": "sod1 knockout",
+          "tissue": "liver",
+          "disease_state": "accelerated aging",
+          "microbiome_status": null,
+          "barrier_status": null,
+          "administration_route": "oral",
+          "dose_level": null,
+          "time_horizon": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "score": 24,
+      "tier": "supporting",
+      "evidence_weight": 5.7,
+      "claim": {
+        "claim_id": "pmid_35869934::C2",
+        "source_id": "pmid_35869934",
+        "intervention": "dasatinib plus quercetin",
+        "outcome": "liver senescence and necroptosis",
+        "effect": "decrease",
+        "summary": "Senolytic treatment reduced senescence markers, SASP factors, inflammation, and necroptosis in the liver of Sod1 knockout mice.",
+        "mechanism_tags": [
+          "inflammation reduction",
+          "senolytic activity"
+        ],
+        "confidence": "high",
+        "evidence_type": "in_vivo",
+        "context": {
+          "species": "mouse",
+          "model_system": "sod1 knockout",
+          "tissue": "liver",
+          "disease_state": "accelerated aging",
+          "microbiome_status": null,
+          "barrier_status": null,
+          "administration_route": "oral",
+          "dose_level": null,
+          "time_horizon": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "score": 24,
+      "tier": "supporting",
+      "evidence_weight": 5.5,
+      "claim": {
+        "claim_id": "pmid_37396956::C2",
+        "source_id": "pmid_37396956",
+        "intervention": "dasatinib plus quercetin",
+        "outcome": "flu-specific cd8 t-cell infiltration",
+        "effect": "decrease",
+        "summary": "Dasatinib plus quercetin causes a transient decrease in flu-specific CD8 T-cell infiltration during primary infection in aged mice.",
+        "mechanism_tags": [
+          "immune cell infiltration"
+        ],
+        "confidence": "high",
+        "evidence_type": "in_vivo",
+        "context": {
+          "species": "mouse",
+          "model_system": null,
+          "tissue": "lung",
+          "disease_state": "influenza infection",
+          "microbiome_status": null,
+          "barrier_status": null,
+          "administration_route": null,
+          "dose_level": null,
+          "time_horizon": "transient",
+          "notes": "aged mice, primary infection"
+        }
+      }
+    },
+    {
+      "score": 24,
+      "tier": "supporting",
+      "evidence_weight": 5.7,
+      "claim": {
+        "claim_id": "pmid_38062873::C1",
+        "source_id": "pmid_38062873",
+        "intervention": "fisetin",
+        "outcome": "arterial function",
+        "effect": "increase",
+        "summary": "Intermittent fisetin supplementation improves arterial function in old mice.",
+        "mechanism_tags": [
+          "cellular senescence reduction",
+          "senolytic"
+        ],
+        "confidence": "high",
+        "evidence_type": "in_vivo",
+        "context": {
+          "species": "mouse",
+          "model_system": null,
+          "tissue": "vascular",
+          "disease_state": "aging",
+          "microbiome_status": null,
+          "barrier_status": null,
+          "administration_route": "oral",
+          "dose_level": null,
+          "time_horizon": "intermittent",
+          "notes": null
+        }
+      }
+    },
+    {
+      "score": 24,
+      "tier": "supporting",
+      "evidence_weight": 5.7,
+      "claim": {
+        "claim_id": "pmid_38062873::C2",
+        "source_id": "pmid_38062873",
+        "intervention": "fisetin",
+        "outcome": "cellular senescence",
+        "effect": "decrease",
+        "summary": "Fisetin decreases cellular senescence markers and SASP-associated inflammation in old mice.",
+        "mechanism_tags": [
+          "inflammation reduction",
+          "senolytic"
+        ],
+        "confidence": "high",
+        "evidence_type": "in_vivo",
+        "context": {
+          "species": "mouse",
+          "model_system": null,
+          "tissue": "vascular",
+          "disease_state": "aging",
+          "microbiome_status": null,
+          "barrier_status": null,
+          "administration_route": "oral",
+          "dose_level": null,
+          "time_horizon": "intermittent",
+          "notes": null
+        }
+      }
+    },
+    {
+      "score": 23,
+      "tier": "supporting",
+      "evidence_weight": 5.4,
+      "claim": {
+        "claim_id": "pmid_32509782::C1",
+        "source_id": "pmid_32509782",
+        "intervention": "navitoclax",
+        "outcome": "trabecular bone volume fraction",
+        "effect": "decrease",
+        "summary": "Navitoclax treatment causes rapid trabecular bone loss in aged mice.",
+        "mechanism_tags": [
+          "senescent cell clearance"
+        ],
+        "confidence": "high",
+        "evidence_type": "in_vivo",
+        "context": {
+          "species": "mouse",
+          "model_system": null,
+          "tissue": "trabecular bone",
+          "disease_state": "aged",
+          "microbiome_status": null,
+          "barrier_status": null,
+          "administration_route": null,
+          "dose_level": null,
+          "time_horizon": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "score": 23,
+      "tier": "supporting",
+      "evidence_weight": 5.5,
+      "claim": {
+        "claim_id": "pmid_32509782::C2",
+        "source_id": "pmid_32509782",
+        "intervention": "navitoclax",
+        "outcome": "osteoprogenitor and osteoblast function",
+        "effect": "decrease",
+        "summary": "Navitoclax strongly impairs osteoprogenitor and osteoblast function, causing cytotoxicity, apoptosis, and failure of mineralized matrix production.",
+        "mechanism_tags": [
+          "apoptosis",
+          "cytotoxicity"
+        ],
+        "confidence": "high",
+        "evidence_type": "in_vivo",
+        "context": {
+          "species": "mouse",
+          "model_system": null,
+          "tissue": "bone",
+          "disease_state": "aged",
+          "microbiome_status": null,
+          "barrier_status": null,
+          "administration_route": null,
+          "dose_level": null,
+          "time_horizon": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "score": 22,
+      "tier": "supporting",
+      "evidence_weight": 4.4,
+      "claim": {
+        "claim_id": "pmid_33832488::C1",
+        "source_id": "pmid_33832488",
+        "intervention": "dasatinib plus quercetin",
+        "outcome": "liver disease progression",
+        "effect": "increase",
+        "summary": "The senolytic cocktail dasatinib plus quercetin mildly exacerbated obesity- and age-dependent liver disease progression and tumorigenesis in mice.",
+        "mechanism_tags": [
+          "senolytic therapy"
+        ],
+        "confidence": "medium",
+        "evidence_type": "in_vivo",
+        "context": {
+          "species": "mouse",
+          "model_system": null,
+          "tissue": null,
+          "disease_state": "obesity- and age-dependent nafld/hcc",
+          "microbiome_status": null,
+          "barrier_status": null,
+          "administration_route": "oral",
+          "dose_level": null,
+          "time_horizon": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "score": 22,
+      "tier": "supporting",
+      "evidence_weight": 5.2,
+      "claim": {
+        "claim_id": "pmid_37396956::C1",
+        "source_id": "pmid_37396956",
+        "intervention": "dasatinib plus quercetin",
+        "outcome": "overall influenza responses",
+        "effect": "null",
+        "summary": "Senolytic treatment with dasatinib and quercetin does not improve overall influenza responses in aged mice.",
+        "mechanism_tags": [],
+        "confidence": "high",
+        "evidence_type": "in_vivo",
+        "context": {
+          "species": "mouse",
+          "model_system": null,
+          "tissue": null,
+          "disease_state": "influenza infection",
+          "microbiome_status": null,
+          "barrier_status": null,
+          "administration_route": null,
+          "dose_level": null,
+          "time_horizon": null,
+          "notes": "aged mice"
+        }
+      }
+    }
+  ],
+  "evidence_balance": [
+    {
+      "intervention": "dasatinib plus quercetin",
+      "outcome": "age-dependent intervertebral disc degeneration",
+      "weighted_support_by_effect": {
+        "decrease": 5.7
+      },
+      "leading_effect": "decrease",
+      "net_support": 5.7,
+      "claim_count": 1
+    },
+    {
+      "intervention": "dasatinib plus quercetin",
+      "outcome": "flu-specific cd8 t-cell infiltration",
+      "weighted_support_by_effect": {
+        "decrease": 5.5
+      },
+      "leading_effect": "decrease",
+      "net_support": 5.5,
+      "claim_count": 1
+    },
+    {
+      "intervention": "dasatinib plus quercetin",
+      "outcome": "hepatocellular carcinoma incidence",
+      "weighted_support_by_effect": {
+        "decrease": 5.7
+      },
+      "leading_effect": "decrease",
+      "net_support": 5.7,
+      "claim_count": 1
+    },
+    {
+      "intervention": "dasatinib plus quercetin",
+      "outcome": "liver disease progression",
+      "weighted_support_by_effect": {
+        "increase": 4.4
+      },
+      "leading_effect": "increase",
+      "net_support": -4.4,
+      "claim_count": 1
+    },
+    {
+      "intervention": "dasatinib plus quercetin",
+      "outcome": "liver senescence and necroptosis",
+      "weighted_support_by_effect": {
+        "decrease": 5.7
+      },
+      "leading_effect": "decrease",
+      "net_support": 5.7,
+      "claim_count": 1
+    },
+    {
+      "intervention": "dasatinib plus quercetin",
+      "outcome": "metabolism and cognition",
+      "weighted_support_by_effect": {
+        "conditional": 4.5
+      },
+      "leading_effect": "conditional",
+      "net_support": 0.0,
+      "claim_count": 1
+    },
+    {
+      "intervention": "dasatinib plus quercetin",
+      "outcome": "overall influenza responses",
+      "weighted_support_by_effect": {
+        "null": 5.2
+      },
+      "leading_effect": "null",
+      "net_support": 0.0,
+      "claim_count": 1
+    },
+    {
+      "intervention": "dasatinib plus quercetin",
+      "outcome": "physical function and lifespan",
+      "weighted_support_by_effect": {
+        "increase": 5.5
+      },
+      "leading_effect": "increase",
+      "net_support": -5.5,
+      "claim_count": 1
+    },
+    {
+      "intervention": "fisetin",
+      "outcome": "arterial function",
+      "weighted_support_by_effect": {
+        "increase": 5.7
+      },
+      "leading_effect": "increase",
+      "net_support": -5.7,
+      "claim_count": 1
+    },
+    {
+      "intervention": "fisetin",
+      "outcome": "cellular senescence",
+      "weighted_support_by_effect": {
+        "decrease": 5.7
+      },
+      "leading_effect": "decrease",
+      "net_support": 5.7,
+      "claim_count": 1
+    },
+    {
+      "intervention": "fisetin",
+      "outcome": "lifespan extension",
+      "weighted_support_by_effect": {
+        "increase": 5.6
+      },
+      "leading_effect": "increase",
+      "net_support": -5.6,
+      "claim_count": 1
+    },
+    {
+      "intervention": "fisetin",
+      "outcome": "metabolism and cognition",
+      "weighted_support_by_effect": {
+        "conditional": 4.5
+      },
+      "leading_effect": "conditional",
+      "net_support": 0.0,
+      "claim_count": 1
+    },
+    {
+      "intervention": "fisetin",
+      "outcome": "senescence marker reduction",
+      "weighted_support_by_effect": {
+        "decrease": 5.7
+      },
+      "leading_effect": "decrease",
+      "net_support": 5.7,
+      "claim_count": 1
+    },
+    {
+      "intervention": "mixed senolytic treatment",
+      "outcome": "coronavirus-related mortality in old mice",
+      "weighted_support_by_effect": {
+        "decrease": 5.6
+      },
+      "leading_effect": "decrease",
+      "net_support": 5.6,
+      "claim_count": 1
+    },
+    {
+      "intervention": "navitoclax",
+      "outcome": "osteoprogenitor and osteoblast function",
+      "weighted_support_by_effect": {
+        "decrease": 5.5
+      },
+      "leading_effect": "decrease",
+      "net_support": 5.5,
+      "claim_count": 1
+    },
+    {
+      "intervention": "navitoclax",
+      "outcome": "trabecular bone volume fraction",
+      "weighted_support_by_effect": {
+        "decrease": 5.4
+      },
+      "leading_effect": "decrease",
+      "net_support": 5.4,
+      "claim_count": 1
+    }
+  ],
+  "family_evidence_balance": [
+    {
+      "intervention_family": "other",
+      "disease_family": "aging",
+      "outcome": "arterial function",
+      "weighted_support_by_effect": {
+        "increase": 5.7
+      },
+      "leading_effect": "increase",
+      "net_support": -5.7,
+      "claim_count": 1
+    },
+    {
+      "intervention_family": "other",
+      "disease_family": "aging",
+      "outcome": "cellular senescence",
+      "weighted_support_by_effect": {
+        "decrease": 5.7
+      },
+      "leading_effect": "decrease",
+      "net_support": 5.7,
+      "claim_count": 1
+    },
+    {
+      "intervention_family": "other",
+      "disease_family": "aging",
+      "outcome": "hepatocellular carcinoma incidence",
+      "weighted_support_by_effect": {
+        "decrease": 5.7
+      },
+      "leading_effect": "decrease",
+      "net_support": 5.7,
+      "claim_count": 1
+    },
+    {
+      "intervention_family": "other",
+      "disease_family": "aging",
+      "outcome": "lifespan extension",
+      "weighted_support_by_effect": {
+        "increase": 5.6
+      },
+      "leading_effect": "increase",
+      "net_support": -5.6,
+      "claim_count": 1
+    },
+    {
+      "intervention_family": "other",
+      "disease_family": "aging",
+      "outcome": "liver senescence and necroptosis",
+      "weighted_support_by_effect": {
+        "decrease": 5.7
+      },
+      "leading_effect": "decrease",
+      "net_support": 5.7,
+      "claim_count": 1
+    },
+    {
+      "intervention_family": "other",
+      "disease_family": "aging",
+      "outcome": "osteoprogenitor and osteoblast function",
+      "weighted_support_by_effect": {
+        "decrease": 5.5
+      },
+      "leading_effect": "decrease",
+      "net_support": 5.5,
+      "claim_count": 1
+    },
+    {
+      "intervention_family": "other",
+      "disease_family": "aging",
+      "outcome": "physical function and lifespan",
+      "weighted_support_by_effect": {
+        "increase": 5.5
+      },
+      "leading_effect": "increase",
+      "net_support": -5.5,
+      "claim_count": 1
+    },
+    {
+      "intervention_family": "other",
+      "disease_family": "aging",
+      "outcome": "senescence marker reduction",
+      "weighted_support_by_effect": {
+        "decrease": 5.7
+      },
+      "leading_effect": "decrease",
+      "net_support": 5.7,
+      "claim_count": 1
+    },
+    {
+      "intervention_family": "other",
+      "disease_family": "aging",
+      "outcome": "trabecular bone volume fraction",
+      "weighted_support_by_effect": {
+        "decrease": 5.4
+      },
+      "leading_effect": "decrease",
+      "net_support": 5.4,
+      "claim_count": 1
+    },
+    {
+      "intervention_family": "other",
+      "disease_family": "metabolic_inflammation",
+      "outcome": "liver disease progression",
+      "weighted_support_by_effect": {
+        "increase": 4.4
+      },
+      "leading_effect": "increase",
+      "net_support": -4.4,
+      "claim_count": 1
+    },
+    {
+      "intervention_family": "other",
+      "disease_family": "other",
+      "outcome": "age-dependent intervertebral disc degeneration",
+      "weighted_support_by_effect": {
+        "decrease": 5.7
+      },
+      "leading_effect": "decrease",
+      "net_support": 5.7,
+      "claim_count": 1
+    },
+    {
+      "intervention_family": "other",
+      "disease_family": "other",
+      "outcome": "coronavirus-related mortality in old mice",
+      "weighted_support_by_effect": {
+        "decrease": 5.6
+      },
+      "leading_effect": "decrease",
+      "net_support": 5.6,
+      "claim_count": 1
+    },
+    {
+      "intervention_family": "other",
+      "disease_family": "other",
+      "outcome": "flu-specific cd8 t-cell infiltration",
+      "weighted_support_by_effect": {
+        "decrease": 5.5
+      },
+      "leading_effect": "decrease",
+      "net_support": 5.5,
+      "claim_count": 1
+    },
+    {
+      "intervention_family": "other",
+      "disease_family": "other",
+      "outcome": "metabolism and cognition",
+      "weighted_support_by_effect": {
+        "conditional": 9.0
+      },
+      "leading_effect": "conditional",
+      "net_support": 0.0,
+      "claim_count": 2
+    },
+    {
+      "intervention_family": "other",
+      "disease_family": "other",
+      "outcome": "overall influenza responses",
+      "weighted_support_by_effect": {
+        "null": 5.2
+      },
+      "leading_effect": "null",
+      "net_support": 0.0,
+      "claim_count": 1
+    }
+  ],
+  "contradictions": [],
+  "mechanism_families": [
+    {
+      "name": "senolytic",
+      "claim_ids": [
+        "pmid_37296266::C1",
+        "pmid_37296266::C2",
+        "pmid_38062873::C1",
+        "pmid_38062873::C2"
+      ],
+      "intervention_outcomes": [
+        "dasatinib plus quercetin -> metabolism and cognition",
+        "fisetin -> arterial function",
+        "fisetin -> cellular senescence",
+        "fisetin -> metabolism and cognition"
+      ],
+      "evidence_count": 4,
+      "notes": "Mechanism family 'senolytic' has 4 supporting claims spanning 4 intervention/outcome pair(s)."
+    },
+    {
+      "name": "senolytic activity",
+      "claim_ids": [
+        "pmid_30279143::C1",
+        "pmid_30279143::C2",
+        "pmid_34480023::C1",
+        "pmid_35869934::C2"
+      ],
+      "intervention_outcomes": [
+        "dasatinib plus quercetin -> age-dependent intervertebral disc degeneration",
+        "dasatinib plus quercetin -> liver senescence and necroptosis",
+        "fisetin -> lifespan extension",
+        "fisetin -> senescence marker reduction"
+      ],
+      "evidence_count": 4,
+      "notes": "Mechanism family 'senolytic activity' has 4 supporting claims spanning 4 intervention/outcome pair(s)."
+    },
+    {
+      "name": "inflammation reduction",
+      "claim_ids": [
+        "pmid_35869934::C1",
+        "pmid_35869934::C2",
+        "pmid_38062873::C2"
+      ],
+      "intervention_outcomes": [
+        "dasatinib plus quercetin -> hepatocellular carcinoma incidence",
+        "dasatinib plus quercetin -> liver senescence and necroptosis",
+        "fisetin -> cellular senescence"
+      ],
+      "evidence_count": 3,
+      "notes": "Mechanism family 'inflammation reduction' has 3 supporting claims spanning 3 intervention/outcome pair(s)."
+    },
+    {
+      "name": "senescent cell clearance",
+      "claim_ids": [
+        "pmid_29988130::C1",
+        "pmid_32509782::C1",
+        "pmid_34103349::C1"
+      ],
+      "intervention_outcomes": [
+        "dasatinib plus quercetin -> physical function and lifespan",
+        "mixed senolytic treatment -> coronavirus-related mortality in old mice",
+        "navitoclax -> trabecular bone volume fraction"
+      ],
+      "evidence_count": 3,
+      "notes": "Mechanism family 'senescent cell clearance' has 3 supporting claims spanning 3 intervention/outcome pair(s)."
+    },
+    {
+      "name": "senescence reduction",
+      "claim_ids": [
+        "pmid_30279143::C1",
+        "pmid_35869934::C1"
+      ],
+      "intervention_outcomes": [
+        "dasatinib plus quercetin -> hepatocellular carcinoma incidence",
+        "fisetin -> lifespan extension"
+      ],
+      "evidence_count": 2,
+      "notes": "Mechanism family 'senescence reduction' has 2 supporting claims spanning 2 intervention/outcome pair(s)."
+    },
+    {
+      "name": "apoptosis",
+      "claim_ids": [
+        "pmid_32509782::C2"
+      ],
+      "intervention_outcomes": [
+        "navitoclax -> osteoprogenitor and osteoblast function"
+      ],
+      "evidence_count": 1,
+      "notes": "Mechanism family 'apoptosis' has 1 supporting claims spanning 1 intervention/outcome pair(s)."
+    },
+    {
+      "name": "cellular senescence reduction",
+      "claim_ids": [
+        "pmid_38062873::C1"
+      ],
+      "intervention_outcomes": [
+        "fisetin -> arterial function"
+      ],
+      "evidence_count": 1,
+      "notes": "Mechanism family 'cellular senescence reduction' has 1 supporting claims spanning 1 intervention/outcome pair(s)."
+    },
+    {
+      "name": "cytotoxicity",
+      "claim_ids": [
+        "pmid_32509782::C2"
+      ],
+      "intervention_outcomes": [
+        "navitoclax -> osteoprogenitor and osteoblast function"
+      ],
+      "evidence_count": 1,
+      "notes": "Mechanism family 'cytotoxicity' has 1 supporting claims spanning 1 intervention/outcome pair(s)."
+    },
+    {
+      "name": "immune cell infiltration",
+      "claim_ids": [
+        "pmid_37396956::C2"
+      ],
+      "intervention_outcomes": [
+        "dasatinib plus quercetin -> flu-specific cd8 t-cell infiltration"
+      ],
+      "evidence_count": 1,
+      "notes": "Mechanism family 'immune cell infiltration' has 1 supporting claims spanning 1 intervention/outcome pair(s)."
+    },
+    {
+      "name": "reduced inflammatory amplification",
+      "claim_ids": [
+        "pmid_34103349::C1"
+      ],
+      "intervention_outcomes": [
+        "mixed senolytic treatment -> coronavirus-related mortality in old mice"
+      ],
+      "evidence_count": 1,
+      "notes": "Mechanism family 'reduced inflammatory amplification' has 1 supporting claims spanning 1 intervention/outcome pair(s)."
+    },
+    {
+      "name": "reduction of sasp molecules",
+      "claim_ids": [
+        "pmid_34480023::C1"
+      ],
+      "intervention_outcomes": [
+        "dasatinib plus quercetin -> age-dependent intervertebral disc degeneration"
+      ],
+      "evidence_count": 1,
+      "notes": "Mechanism family 'reduction of sasp molecules' has 1 supporting claims spanning 1 intervention/outcome pair(s)."
+    },
+    {
+      "name": "reduction of senescence markers",
+      "claim_ids": [
+        "pmid_34480023::C1"
+      ],
+      "intervention_outcomes": [
+        "dasatinib plus quercetin -> age-dependent intervertebral disc degeneration"
+      ],
+      "evidence_count": 1,
+      "notes": "Mechanism family 'reduction of senescence markers' has 1 supporting claims spanning 1 intervention/outcome pair(s)."
+    },
+    {
+      "name": "sasp suppression",
+      "claim_ids": [
+        "pmid_30279143::C2"
+      ],
+      "intervention_outcomes": [
+        "fisetin -> senescence marker reduction"
+      ],
+      "evidence_count": 1,
+      "notes": "Mechanism family 'sasp suppression' has 1 supporting claims spanning 1 intervention/outcome pair(s)."
+    },
+    {
+      "name": "senolytic therapy",
+      "claim_ids": [
+        "pmid_33832488::C1"
+      ],
+      "intervention_outcomes": [
+        "dasatinib plus quercetin -> liver disease progression"
+      ],
+      "evidence_count": 1,
+      "notes": "Mechanism family 'senolytic therapy' has 1 supporting claims spanning 1 intervention/outcome pair(s)."
+    },
+    {
+      "name": "unspecified mechanism",
+      "claim_ids": [
+        "pmid_37396956::C1"
+      ],
+      "intervention_outcomes": [
+        "dasatinib plus quercetin -> overall influenza responses"
+      ],
+      "evidence_count": 1,
+      "notes": "Mechanism family 'unspecified mechanism' has 1 supporting claims spanning 1 intervention/outcome pair(s)."
+    }
+  ],
+  "experiment_proposals": []
+}

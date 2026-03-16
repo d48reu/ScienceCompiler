@@ -1,0 +1,6 @@
+Source: PMID 32556930
+Title: Sodium Butyrate Exacerbates Parkinson's Disease by Aggravating Neuroinflammation and Colonic Inflammation in MPTP-Induced Mice Model
+URL: https://pubmed.ncbi.nlm.nih.gov/32556930/
+
+Study summary:
+This MPTP-induced Parkinson's disease mouse study reported that sodium butyrate worsened disease outcomes rather than improving them. It aggravated motor impairment, further reduced dopamine and serotonin levels, and exacerbated dopaminergic neuron loss. In the brain, sodium butyrate increased microglial and astrocyte activation and elevated pro-inflammatory markers including IL-1β, IL-18, iNOS, and nitric oxide. In the colon, sodium butyrate also increased inflammatory markers including IL-6, IL-18, and NLRP3. The paper concludes that sodium butyrate exacerbates Parkinson-related pathology by aggravating neuroinflammation and colonic inflammation, with emphasis on alternative inflammatory pathways rather than NFκB/MyD88/TNF-α.

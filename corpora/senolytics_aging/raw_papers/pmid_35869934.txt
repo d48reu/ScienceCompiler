@@ -1,0 +1,6 @@
+Source: PMID 35869934
+Title: Senolytic treatment reduces cell senescence and necroptosis in Sod1 knockout mice that is associated with reduced inflammation and hepatocellular carcinoma
+URL: https://pubmed.ncbi.nlm.nih.gov/35869934/
+
+Study summary:
+This Sod1 knockout mouse study found that dasatinib plus quercetin reduced senescence markers, SASP factors, inflammation, and necroptosis in the liver. Most importantly, senolytic treatment sharply reduced hepatocellular carcinoma incidence in this accelerated-aging context. The paper also proposed a positive feedback loop between senescence and necroptosis that amplifies inflammaging and pathology. It presents senolytics as a way to reduce age-associated inflammatory pathology and cancer risk, though not all tissue-level damage such as fibrosis was reversed.

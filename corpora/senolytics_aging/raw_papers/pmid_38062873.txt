@@ -1,0 +1,6 @@
+Source: PMID 38062873
+Title: Intermittent supplementation with fisetin improves arterial function in old mice by decreasing cellular senescence
+URL: https://pubmed.ncbi.nlm.nih.gov/38062873/
+
+Study summary:
+This aged-vascular study reported that intermittent fisetin supplementation improved endothelial function and reduced arterial stiffness in old mice. Fisetin decreased senescence markers and SASP-associated inflammation, reduced oxidative stress, and improved nitric oxide bioavailability. The paper interprets fisetin as a senolytic intervention that rejuvenates vascular function by clearing senescent vascular cells. It also supports intermittent rather than continuous dosing as sufficient for benefit.

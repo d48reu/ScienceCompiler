@@ -1,0 +1,5 @@
+Source: Paper_A_2021
+Title: Oral butyrate in LPS mice
+
+Abstract-style notes:
+We administered butyrate orally to conventional mice in an LPS neuroinflammation model. The treatment reduced IL-6 and TNF-alpha, and mice showed improved cognition compared with controls. The authors argue this protective effect may be mediated by Treg expansion and HDAC inhibition. Barrier status was intact during the experiment. The evidence is in vivo and acute.

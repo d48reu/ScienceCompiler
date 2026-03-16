@@ -1,0 +1,45 @@
+Science Compiler
+
+What it is
+Science Compiler is a local-first AI workflow for turning scientific literature into structured, computable objects instead of prose summaries.
+
+Given a small corpus of papers or study summaries, it extracts claims, refines them, canonicalizes interventions and outcomes, weights evidence, detects contradictions, groups mechanisms, and proposes follow-up experiments.
+
+Why we built it
+Most AI-for-science tools either summarize literature or predict on datasets. We wanted to build something that helps with a different bottleneck: holding contradictory scientific evidence in one structure and making that disagreement legible.
+
+How it works
+- raw study text in
+- first-pass claim extraction
+- second-pass refinement
+- curation and ranking
+- ontology / canonicalization
+- evidence weighting
+- contradiction detection
+- family-split evidence balance
+- review queue for human correction
+
+What it found
+1. Butyrate / neuroinflammation
+The compiler found that direct sodium butyrate mostly looks anti-neuroinflammatory across several non-parkinsonian contexts, but a parkinsonian MPTP paper points the other way. The useful scientific output is not a universal claim, but a sharper question: why does the sign flip in that disease context?
+
+2. Senolytics / aging
+In a second domain, the system surfaced a different structure: not one clean contradiction, but a benefit-vs-harm tradeoff map. Some senolytics improve lifespan, function, or resilience, while some agents or contexts show harms, null effects, or sex-specific downside.
+
+Why this matters
+The project is trying to make AI useful as a scientific instrument rather than a generic assistant. Instead of replacing expert judgment, it helps researchers see where the literature is coherent, where it breaks, and what should be tested next.
+
+Current limitations
+- abstract/summarized text, not full-paper adjudication
+- heuristic evidence weighting
+- still needs human review for best results
+- not a replacement for systematic review or meta-analysis
+
+Why it fits the hackathon
+It is creative, useful, and demoable:
+- creative because it treats science like something you can compile
+- useful because it surfaces contradictions instead of erasing them
+- demoable because the transformation from raw papers to structured scientific tension is visible and easy to follow
+
+One-line summary
+Science Compiler turns papers from things you read into things you can compute over.

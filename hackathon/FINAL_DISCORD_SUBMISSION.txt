@@ -1,0 +1,32 @@
+Science Compiler submission
+
+Tweet link:
+[paste tweet link here]
+
+One-line summary:
+Science Compiler turns scientific literature into structured claims, contradiction maps, weighted evidence, and experiment ideas.
+
+What it does:
+- extracts/refines claims from paper text
+- canonicalizes interventions/outcomes
+- weights evidence
+- surfaces contradiction or tradeoff structure
+- proposes follow-up experiments
+- supports human review instead of pretending to replace it
+
+Best demo result:
+In a butyrate/neuroinflammation corpus, it found a real context-dependent sign flip: mostly anti-neuroinflammatory across several non-parkinsonian contexts, but a parkinsonian MPTP paper points the other way.
+
+Generalization:
+In a second domain, senolytics/aging, it surfaced a different scientific structure: benefit-vs-harm tradeoffs across agents like D+Q, fisetin, and navitoclax.
+
+Main repo/workdir:
+/home/d48reu/science-compiler
+
+Best files:
+- /home/d48reu/science-compiler/corpora/butyrate_neuroinflammation/reports/compiler_report_gold.md
+- /home/d48reu/science-compiler/corpora/butyrate_neuroinflammation/reports/EXECUTIVE_BRIEF.md
+- /home/d48reu/science-compiler/corpora/senolytics_aging/reports/TRADEOFF_MEMO.md
+
+Video used for submission:
+/home/d48reu/science-compiler/hackathon/science_compiler_nous_demo_voiced.mp4

@@ -1,0 +1,6 @@
+Source: PMID 41279475
+Title: Butyrate regulates the blood-brain barrier transport and intra-endothelial accumulation of Alzheimer's disease Amyloid-beta peptides
+URL: https://pubmed.ncbi.nlm.nih.gov/41279475/
+
+Study summary:
+This blood-brain barrier study reports that butyrate decreases uptake and accumulation of Aβ42 in endothelial cells and restores key blood-brain barrier functions under amyloid stress. The protective effect is linked to activation of AKT and ERK signaling, restoration of P-glycoprotein efflux transporter expression, increased claudin-5, and increased TIMP-2. In mice colonized with butyrate-producing bacteria, BBB receptors and transporters related to amyloid trafficking were upregulated. The study interprets butyrate as a modulator of BBB integrity and amyloid transport relevant to Alzheimer disease.

@@ -1,0 +1,6 @@
+Source: PMID 41366428
+Title: Microbial production of short-chain fatty acids attenuates long-term neurologic impairment after traumatic brain injury
+URL: https://pubmed.ncbi.nlm.nih.gov/41366428/
+
+Study summary:
+This traumatic brain injury study used a diet engineered to increase microbial production of acetate and butyrate. The HAMSAB intervention improved long-term behavioral recovery, promoted neurogenesis, reduced inflammatory myeloid signaling, and reduced phosphorylated tau deposition after controlled cortical impact. The study describes an anti-inflammatory myeloid shift and disease-associated microglia phenotype linked to increased microbial SCFA production. Like the other TBI study, this is not butyrate-only but is highly relevant to butyrate-centered gut-brain hypotheses.

@@ -1,0 +1,6 @@
+Source: PMID 34103349
+Title: Senolytics reduce coronavirus-related mortality in old mice
+URL: https://pubmed.ncbi.nlm.nih.gov/34103349/
+
+Study summary:
+This study examined whether senolytic drugs improve resilience to severe viral infection in old mice. Senescent cells amplified inflammatory responses to pathogen-associated signals, and old mice exposed to a SARS-CoV-2-related mouse coronavirus developed extreme mortality. Senolytic interventions including fisetin and dasatinib plus quercetin significantly reduced mortality, lowered inflammatory markers, and increased antiviral antibody responses. The paper frames senescent cells as a hyper-inflammatory amplifier and senolytics as a way to improve late-life immune resilience.

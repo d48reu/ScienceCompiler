@@ -1,0 +1,6 @@
+Source: PMID 31835282
+Title: Effect of Clostridium butyricum against Microglia-Mediated Neuroinflammation in Alzheimer's Disease via Regulating Gut Microbiota and Metabolites Butyrate
+URL: https://pubmed.ncbi.nlm.nih.gov/31835282/
+
+Study summary:
+This APP/PS1 Alzheimer's study tested the probiotic Clostridium butyricum and emphasized butyrate as the active gut-derived mediator. Treatment improved cognition, reduced amyloid-beta deposits, and suppressed microglial activation in the brain. Brain TNF-α and IL-1β fell, while gut microbiota composition and butyrate levels were restored. In BV2 microglia, butyrate pretreatment reduced CD11b, COX-2, and NF-κB p65 phosphorylation. The paper argues that butyrate mediates probiotic protection against microglia-driven neuroinflammation through the gut-brain axis.

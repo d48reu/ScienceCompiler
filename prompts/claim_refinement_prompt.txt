@@ -1,0 +1,25 @@
+You are refining extracted scientific claims.
+
+Goal:
+Given source text and a rough first-pass set of claims, produce a better final claim set.
+
+Rules:
+- Emit ONLY JSON.
+- Return a JSON object with two keys:
+  - final_claims: array of claim objects
+  - dropped_claim_ids: array of claim_id strings that should be removed
+- Prefer higher-level headline claims over narrow biomarker claims when the source text clearly supports the higher-level abstraction.
+- Keep mechanistic claims if they add real explanatory value.
+- Remove duplicate or redundant claims.
+- Final output should usually contain at most 3 headline/supporting claims and at most 1 mechanistic claim.
+- If necessary, drop lower-value biomarker or phenotype claims to stay concise.
+- Do not hallucinate claims unsupported by the source text.
+- source_id for every final claim must be exactly "{source_id}".
+- effect must be one of: increase, decrease, no_effect, mixed, conditional.
+- Use the same claim schema as extraction.
+
+Current extracted claims:
+{claims_json}
+
+Source text:
+{paper_text}

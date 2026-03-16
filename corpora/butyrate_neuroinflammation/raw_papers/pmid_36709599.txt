@@ -1,0 +1,6 @@
+Source: PMID 36709599
+Title: Butyrate ameliorates chronic alcoholic central nervous damage by suppressing microglia-mediated neuroinflammation and modulating the microbiome-gut-brain axis
+URL: https://pubmed.ncbi.nlm.nih.gov/36709599/
+
+Study summary:
+This chronic alcohol mouse study found that sodium butyrate reduced neuroinflammation, repaired gut barrier integrity, and improved cognitive and mood-related outcomes. The intervention lowered TNF-α, IL-1β, and IL-6 in brain and blood, increased IL-10, and reduced abnormal microglial activation in hippocampus and cortex. It also improved occludin expression, reduced endotoxemia, and modulated the microbiota-gut-brain axis. Mechanistically, the paper highlighted GPR109A activation, increased PPAR-γ, and downregulation of TLR4/NF-κB signaling.

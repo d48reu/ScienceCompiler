@@ -1,0 +1,43 @@
+You are extracting scientific claims into a strict schema.
+
+Task:
+Read the paper text below and emit ONLY a JSON array.
+No prose. No markdown. No explanation.
+
+Rules:
+- Extract only concrete scientific claims actually supported by the provided text.
+- Use short stable claim IDs like C1, C2, C3.
+- Normalize intervention and outcome into concise phrases.
+- Prefer the paper's higher-level scientific claim (e.g. neuroinflammation decreases) over a single biomarker claim unless the biomarker itself is clearly the main reported outcome.
+- Output at most 3 headline/supporting claims total for a paper.
+- Output at most 1 mechanistic claim unless the paper is overwhelmingly mechanism-focused.
+- If the text explicitly states both a high-level outcome and a mechanistic mediator, you may emit separate claims, but stay sparse.
+- Do NOT emit biomarker spam when a broader headline claim is available.
+- effect must be one of: increase, decrease, no_effect, mixed, conditional.
+- mechanism_tags should be a JSON array of short phrases.
+- context must be a JSON object using only these optional keys:
+  species, model_system, tissue, disease_state, microbiome_status,
+  barrier_status, administration_route, dose_level, time_horizon, notes
+- confidence should be one of: low, medium, high.
+- evidence_type should be a short label like in_vivo, in_vitro, organoid, clinical, review.
+- If a field is unknown, omit it from context rather than hallucinating.
+- source_id must be exactly "{source_id}".
+
+Schema for each array item:
+{{
+  "claim_id": "C1",
+  "source_id": "{source_id}",
+  "intervention": "...",
+  "outcome": "...",
+  "effect": "decrease",
+  "summary": "one sentence summary",
+  "mechanism_tags": ["..."],
+  "confidence": "medium",
+  "evidence_type": "in_vivo",
+  "context": {{
+    "species": "mouse"
+  }}
+}}
+
+Paper text:
+{paper_text}

@@ -1,0 +1,6 @@
+Source: PMID 37665564
+Title: Sodium Butyrate Protects Against Intestinal Oxidative Damage and Neuroinflammation in the Prefrontal Cortex of Ulcerative Colitis Mice Model
+URL: https://pubmed.ncbi.nlm.nih.gov/37665564/
+
+Study summary:
+This DSS ulcerative-colitis mouse study examined whether sodium butyrate can protect both the gut and brain through the gut-brain axis. Sodium butyrate reduced colitis severity, restored tight junction proteins including claudin-5 and occludin, and reduced oxidative damage in the intestine. Gut barrier disruption in DSS mice was associated with neuroinflammation in the prefrontal cortex marked by increased IBA-1. Sodium butyrate protected the prefrontal cortex from this neuroinflammation. The proposed mechanism emphasized Nrf2 and HIF-1α activation with downstream antioxidant enzymes such as catalase and superoxide dismutase.

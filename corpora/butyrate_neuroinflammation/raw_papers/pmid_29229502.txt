@@ -1,0 +1,6 @@
+Source: PMID 29229502
+Title: Sodium butyrate abolishes lipopolysaccharide-induced depression-like behaviors and hippocampal microglial activation in mice
+URL: https://pubmed.ncbi.nlm.nih.gov/29229502/
+
+Study summary:
+This LPS-induced depression-like behavior study tested sodium butyrate as an HDAC inhibitor against neuroinflammation-related behavioral change. Repeated sodium butyrate treatment reversed LPS-induced immobility in the forced swim test and reduced hippocampal cytokines and Iba1-positive microglial activation. Microarray analysis showed broad gene-expression overlap between LPS-induced changes and sodium butyrate reversal. The paper argues that epigenetic regulation of hippocampal microglia is involved in depression-like behavior associated with neuroinflammation.

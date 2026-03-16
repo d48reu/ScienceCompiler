@@ -1,0 +1,6 @@
+Source: PMID 30154787
+Title: Butyrate and Dietary Soluble Fiber Improve Neuroinflammation Associated With Aging in Mice
+URL: https://pubmed.ncbi.nlm.nih.gov/30154787/
+
+Study summary:
+This mouse study examined whether dietary soluble fiber and butyrate can reduce age-related neuroinflammation. A high-fiber inulin diet increased cecal butyrate, acetate, and total SCFAs. Aged animals on the high-fiber diet showed a more anti-inflammatory microglial profile and reduced inflammatory infiltrate in the distal colon. Pharmacologic butyrate treatment attenuated expression of IL-1β, TNF, and IL-6 in microglia from aged mice after LPS challenge. The study frames butyrate as an HDAC inhibitor with anti-inflammatory properties and links the gut microbiome to microglial state and brain aging.

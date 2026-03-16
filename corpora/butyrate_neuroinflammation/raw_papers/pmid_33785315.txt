@@ -1,0 +1,6 @@
+Source: PMID 33785315
+Title: Sodium butyrate ameliorates the impairment of synaptic plasticity by inhibiting the neuroinflammation in 5XFAD mice
+URL: https://pubmed.ncbi.nlm.nih.gov/33785315/
+
+Study summary:
+This early-stage Alzheimer's 5XFAD mouse study reported that sodium butyrate suppressed microglia-induced neuroinflammation and improved synaptic plasticity before major cognitive symptoms were obvious. Sodium butyrate decreased TNF-α, IL-6, and IL-1β, reduced microglial overactivation, and lowered Aβ accumulation. It also restored dendritic spine abundance and synapse-related proteins such as PSD-95, synaptophysin, and NR2B. The paper presents butyrate as an HDAC inhibitor that interrupts the inflammation–amyloid vicious cycle.

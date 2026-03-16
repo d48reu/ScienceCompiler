@@ -1,0 +1,23 @@
+{
+  "updates": [],
+  "drops": [
+    {"source_id": "pmid_29229502", "claim_id": "C1"},
+    {"source_id": "pmid_29229502", "claim_id": "C2"},
+    {"source_id": "pmid_30154787", "claim_id": "C1"},
+    {"source_id": "pmid_31835282", "claim_id": "C1"},
+    {"source_id": "pmid_31835282", "claim_id": "C3"},
+    {"source_id": "pmid_35917736", "claim_id": "C1"},
+    {"source_id": "pmid_36709599", "claim_id": "C2"},
+    {"source_id": "pmid_36709599", "claim_id": "C3"},
+    {"source_id": "pmid_36839287", "claim_id": "C2"},
+    {"source_id": "pmid_37318680", "claim_id": "C2"},
+    {"source_id": "pmid_37318680", "claim_id": "C3"},
+    {"source_id": "pmid_37665564", "claim_id": "C2"},
+    {"source_id": "pmid_37665564", "claim_id": "C3"},
+    {"source_id": "pmid_38340407", "claim_id": "C2"},
+    {"source_id": "pmid_39962509", "claim_id": "C1"},
+    {"source_id": "pmid_39962509", "claim_id": "C3"},
+    {"source_id": "pmid_41279475", "claim_id": "C1"}
+  ],
+  "adds": []
+}

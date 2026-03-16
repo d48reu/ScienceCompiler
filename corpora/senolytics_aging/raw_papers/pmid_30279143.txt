@@ -1,0 +1,6 @@
+Source: PMID 30279143
+Title: Fisetin is a senotherapeutic that extends health and lifespan
+URL: https://pubmed.ncbi.nlm.nih.gov/30279143/
+
+Study summary:
+This study identified fisetin as a potent senolytic flavonoid and tested it in progeroid and naturally aged mice. Fisetin reduced senescence markers across multiple tissues, lowered SASP factors such as IL-6 and TNF-alpha, improved tissue homeostasis, and extended both median and maximum lifespan when given late in life. It also reduced markers of oxidative stress and showed senescence-reducing effects in human adipose tissue explants. The paper presents fisetin as a hit-and-run senotherapeutic capable of improving healthspan and lifespan.

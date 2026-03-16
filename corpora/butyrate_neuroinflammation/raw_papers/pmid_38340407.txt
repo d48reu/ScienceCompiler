@@ -1,0 +1,6 @@
+Source: PMID 38340407
+Title: Sodium butyrate alleviates lead-induced neuroinflammation and improves cognitive and memory impairment through the ACSS2/H3K9ac/BDNF pathway
+URL: https://pubmed.ncbi.nlm.nih.gov/38340407/
+
+Study summary:
+This lead-exposure study linked lower butyrate levels to worse cognition and tested sodium butyrate as a rescue intervention. Chronic lead exposure reduced serum butyric acid in mice and in humans with high lead exposure. Oral sodium butyrate improved learning and memory deficits, reduced anxiety-like symptoms, and alleviated lead-induced neuroinflammation. Mechanistically, the paper emphasized microglial STAT3 inhibition together with an ACSS2/H3K9ac/BDNF pathway that restored neurotrophic signaling in hippocampal neurons.

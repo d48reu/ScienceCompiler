@@ -1,0 +1,72 @@
+[
+  {
+    "source_id": "pmid_29988130",
+    "pmid": "29988130",
+    "title": "Senolytics improve physical function and increase lifespan in old age",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29988130/",
+    "category": "dq_lifespan"
+  },
+  {
+    "source_id": "pmid_30279143",
+    "pmid": "30279143",
+    "title": "Fisetin is a senotherapeutic that extends health and lifespan",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30279143/",
+    "category": "fisetin_lifespan"
+  },
+  {
+    "source_id": "pmid_32509782",
+    "pmid": "32509782",
+    "title": "The Senolytic Drug Navitoclax (ABT-263) Causes Trabecular Bone Loss and Impaired Osteoprogenitor Function in Aged Mice",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32509782/",
+    "category": "navitoclax_harm"
+  },
+  {
+    "source_id": "pmid_33832488",
+    "pmid": "33832488",
+    "title": "Mild exacerbation of obesity- and age-dependent liver disease progression by senolytic cocktail dasatinib + quercetin",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33832488/",
+    "category": "dq_liver_harm"
+  },
+  {
+    "source_id": "pmid_34103349",
+    "pmid": "34103349",
+    "title": "Senolytics reduce coronavirus-related mortality in old mice",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34103349/",
+    "category": "infection_resilience"
+  },
+  {
+    "source_id": "pmid_34480023",
+    "pmid": "34480023",
+    "title": "Long-term treatment with senolytic drugs Dasatinib and Quercetin ameliorates age-dependent intervertebral disc degeneration in mice",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34480023/",
+    "category": "dq_disc_degeneration"
+  },
+  {
+    "source_id": "pmid_35869934",
+    "pmid": "35869934",
+    "title": "Senolytic treatment reduces cell senescence and necroptosis in Sod1 knockout mice that is associated with reduced inflammation and hepatocellular carcinoma",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35869934/",
+    "category": "dq_inflammaging_hcc"
+  },
+  {
+    "source_id": "pmid_37296266",
+    "pmid": "37296266",
+    "title": "Sexual dimorphic metabolic and cognitive responses of C57BL/6 mice to Fisetin or Dasatinib and quercetin cocktail oral treatment",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37296266/",
+    "category": "sex_dimorphic_senolytics"
+  },
+  {
+    "source_id": "pmid_37396956",
+    "pmid": "37396956",
+    "title": "Senolytic treatment with dasatinib and quercetin does not improve overall influenza responses in aged mice",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37396956/",
+    "category": "dq_no_benefit_influenza"
+  },
+  {
+    "source_id": "pmid_38062873",
+    "pmid": "38062873",
+    "title": "Intermittent supplementation with fisetin improves arterial function in old mice by decreasing cellular senescence",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38062873/",
+    "category": "fisetin_vascular"
+  }
+]

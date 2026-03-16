@@ -1,0 +1,176 @@
+[
+  {
+    "claim_id": "C1",
+    "source_id": "Paper_A_2021",
+    "intervention": "butyrate administration",
+    "outcome": "neuroinflammation",
+    "effect": "decrease",
+    "summary": "Oral butyrate reduced inflammatory cytokines and improved cognition in an LPS mouse model.",
+    "mechanism_tags": ["treg expansion", "hdac inhibition"],
+    "confidence": "medium",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": "lps model",
+      "tissue": "brain",
+      "disease_state": "acute neuroinflammation",
+      "microbiome_status": "conventional",
+      "barrier_status": "intact",
+      "administration_route": "oral",
+      "dose_level": "medium",
+      "time_horizon": "acute"
+    }
+  },
+  {
+    "claim_id": "C2",
+    "source_id": "Paper_B_2022",
+    "intervention": "butyrate administration",
+    "outcome": "neuroinflammation",
+    "effect": "increase",
+    "summary": "In dysbiotic mice with a compromised gut barrier, butyrate exposure correlated with worse neuroinflammation.",
+    "mechanism_tags": ["barrier conditionality", "microbial translocation"],
+    "confidence": "medium",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": "lps model",
+      "tissue": "brain",
+      "disease_state": "acute neuroinflammation",
+      "microbiome_status": "dysbiotic",
+      "barrier_status": "impaired",
+      "administration_route": "oral",
+      "dose_level": "medium",
+      "time_horizon": "acute"
+    }
+  },
+  {
+    "claim_id": "C3",
+    "source_id": "Paper_C_2020",
+    "intervention": "butyrate administration",
+    "outcome": "treg abundance",
+    "effect": "increase",
+    "summary": "Butyrate increased Treg abundance in peripheral immune tissue.",
+    "mechanism_tags": ["treg expansion"],
+    "confidence": "high",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": "immune profiling",
+      "tissue": "colon",
+      "microbiome_status": "conventional",
+      "barrier_status": "intact",
+      "administration_route": "oral",
+      "dose_level": "medium"
+    }
+  },
+  {
+    "claim_id": "C4",
+    "source_id": "Paper_D_2019",
+    "intervention": "butyrate administration",
+    "outcome": "neuroinflammation",
+    "effect": "no_effect",
+    "summary": "Butyrate had little impact on neuroinflammation in germ-free mice.",
+    "mechanism_tags": ["marker not driver"],
+    "confidence": "medium",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": "lps model",
+      "tissue": "brain",
+      "disease_state": "acute neuroinflammation",
+      "microbiome_status": "germ free",
+      "barrier_status": "intact",
+      "administration_route": "oral",
+      "dose_level": "medium",
+      "time_horizon": "acute"
+    }
+  },
+  {
+    "claim_id": "C5",
+    "source_id": "Paper_E_2023",
+    "intervention": "high-butyrate donor fecal transfer",
+    "outcome": "neuroinflammation",
+    "effect": "decrease",
+    "summary": "Fecal transfer from high-butyrate donors reduced neuroinflammation more reliably than butyrate alone.",
+    "mechanism_tags": ["community ecology", "marker not driver"],
+    "confidence": "medium",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": "lps model",
+      "tissue": "brain",
+      "disease_state": "acute neuroinflammation",
+      "microbiome_status": "dysbiotic",
+      "barrier_status": "impaired",
+      "administration_route": "transplant",
+      "dose_level": "n/a",
+      "time_horizon": "acute"
+    }
+  },
+  {
+    "claim_id": "C6",
+    "source_id": "Paper_F_2024",
+    "intervention": "butyrate administration",
+    "outcome": "neuroinflammation",
+    "effect": "increase",
+    "summary": "A matched-context replication reported increased neuroinflammation after butyrate administration.",
+    "mechanism_tags": ["microglial priming"],
+    "confidence": "low",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": "lps model",
+      "tissue": "brain",
+      "disease_state": "acute neuroinflammation",
+      "microbiome_status": "conventional",
+      "barrier_status": "intact",
+      "administration_route": "oral",
+      "dose_level": "medium",
+      "time_horizon": "acute"
+    }
+  },
+  {
+    "claim_id": "C7",
+    "source_id": "Paper_G_2021",
+    "intervention": "butyrate administration",
+    "outcome": "blood-brain barrier integrity",
+    "effect": "increase",
+    "summary": "Butyrate improved blood-brain barrier integrity under inflammatory stress.",
+    "mechanism_tags": ["barrier repair"],
+    "confidence": "medium",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": "lps model",
+      "tissue": "brain vasculature",
+      "disease_state": "acute neuroinflammation",
+      "microbiome_status": "conventional",
+      "barrier_status": "leaky",
+      "administration_route": "oral",
+      "dose_level": "medium",
+      "time_horizon": "acute"
+    }
+  },
+  {
+    "claim_id": "C8",
+    "source_id": "Paper_H_2022",
+    "intervention": "butyrate administration",
+    "outcome": "neuroinflammation",
+    "effect": "decrease",
+    "summary": "In human gut-brain organoids with intact epithelial barriers, butyrate reduced inflammatory signaling.",
+    "mechanism_tags": ["barrier conditionality", "hdac inhibition"],
+    "confidence": "medium",
+    "evidence_type": "organoid",
+    "context": {
+      "species": "human organoid",
+      "model_system": "gut-brain organoid",
+      "tissue": "organoid",
+      "disease_state": "cytokine challenge",
+      "microbiome_status": "none",
+      "barrier_status": "intact",
+      "administration_route": "media",
+      "dose_level": "medium",
+      "time_horizon": "acute"
+    }
+  }
+]

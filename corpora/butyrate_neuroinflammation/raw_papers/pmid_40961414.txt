@@ -1,0 +1,6 @@
+Source: PMID 40961414
+Title: Short-Chain Fatty Acid Supplementation After Traumatic Brain Injury Attenuates Neurologic Injury Via the Gut-Brain-Microglia Axis
+URL: https://pubmed.ncbi.nlm.nih.gov/40961414
+
+Study summary:
+This traumatic brain injury study supplemented mice with a mixture of short-chain fatty acids including acetate, butyrate, and propionate after controlled cortical impact. SCFA treatment reduced ventriculomegaly, preserved white-matter connectivity, attenuated neurocognitive deficits, and shifted microglia toward a neuroprotective state. The paper also reported mitigation of TBI-induced gut dysbiosis and preservation of butyrate-producing taxa. This is not a pure butyrate-only intervention, but it supports a broader gut-brain-microglia anti-inflammatory role for SCFAs including butyrate.

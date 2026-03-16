@@ -1,0 +1,6 @@
+Source: PMID 32509782
+Title: The Senolytic Drug Navitoclax (ABT-263) Causes Trabecular Bone Loss and Impaired Osteoprogenitor Function in Aged Mice
+URL: https://pubmed.ncbi.nlm.nih.gov/32509782/
+
+Study summary:
+This aged-mouse study showed that the senolytic drug navitoclax, despite reducing senescent cell burden, caused rapid trabecular bone loss and strongly impaired osteoprogenitor and osteoblast function. Bone volume fraction fell substantially in both female and male mice, and bone-forming cultures showed marked cytotoxicity, apoptosis, and failure of mineralized matrix production. The paper argues that navitoclax has harmful skeletal effects and that senolytic benefit cannot be assumed across tissues simply because senescent cells are cleared.

@@ -1,0 +1,803 @@
+[
+  {
+    "claim_id": "C1",
+    "source_id": "pmid_29229502",
+    "intervention": "sodium butyrate",
+    "outcome": "lps-induced depression-like behaviors",
+    "effect": "decrease",
+    "summary": "Repeated sodium butyrate treatment reversed LPS-induced immobility in the forced swim test in mice.",
+    "mechanism_tags": [
+      "epigenetic regulation",
+      "hdac inhibition"
+    ],
+    "confidence": "high",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": "lps-induced depression-like behavior",
+      "tissue": null,
+      "disease_state": null,
+      "microbiome_status": null,
+      "barrier_status": null,
+      "administration_route": "repeated treatment",
+      "dose_level": null,
+      "time_horizon": "behavioral reversal",
+      "notes": null
+    }
+  },
+  {
+    "claim_id": "C2",
+    "source_id": "pmid_29229502",
+    "intervention": "sodium butyrate",
+    "outcome": "hippocampal microglial activation",
+    "effect": "decrease",
+    "summary": "Sodium butyrate reduced hippocampal cytokines and Iba1-positive microglial activation in LPS-treated mice.",
+    "mechanism_tags": [
+      "microglial activation",
+      "neuroinflammation"
+    ],
+    "confidence": "high",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": "lps-induced depression-like behavior",
+      "tissue": "hippocampus",
+      "disease_state": null,
+      "microbiome_status": null,
+      "barrier_status": null,
+      "administration_route": "repeated treatment",
+      "dose_level": null,
+      "time_horizon": "behavioral reversal",
+      "notes": null
+    }
+  },
+  {
+    "claim_id": "C1",
+    "source_id": "pmid_30154787",
+    "intervention": "high-fiber inulin diet",
+    "outcome": "neuroinflammation",
+    "effect": "decrease",
+    "summary": "A high-fiber inulin diet reduces age-related neuroinflammation in mice by promoting an anti-inflammatory microglial profile.",
+    "mechanism_tags": [
+      "gut-brain axis",
+      "microglial modulation"
+    ],
+    "confidence": "medium",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": null,
+      "tissue": null,
+      "disease_state": "aging",
+      "microbiome_status": null,
+      "barrier_status": null,
+      "administration_route": "dietary",
+      "dose_level": null,
+      "time_horizon": null,
+      "notes": null
+    }
+  },
+  {
+    "claim_id": "C2",
+    "source_id": "pmid_30154787",
+    "intervention": "butyrate",
+    "outcome": "neuroinflammation",
+    "effect": "decrease",
+    "summary": "Pharmacologic butyrate treatment attenuates expression of IL-1\u03b2, TNF, and IL-6 in microglia from aged mice after LPS challenge.",
+    "mechanism_tags": [
+      "anti-inflammatory",
+      "hdac inhibition"
+    ],
+    "confidence": "medium",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": null,
+      "tissue": null,
+      "disease_state": "aging",
+      "microbiome_status": null,
+      "barrier_status": null,
+      "administration_route": "pharmacologic",
+      "dose_level": null,
+      "time_horizon": null,
+      "notes": null
+    }
+  },
+  {
+    "claim_id": "C1",
+    "source_id": "pmid_31835282",
+    "intervention": "clostridium butyricum treatment",
+    "outcome": "cognitive function",
+    "effect": "increase",
+    "summary": "Clostridium butyricum treatment decreased microglial activation in APP/PS1 Alzheimer mice, consistent with reduced neuroinflammation through a butyrate-mediated gut-brain mechanism.",
+    "mechanism_tags": [
+      "gut-brain axis",
+      "microbiota modulation"
+    ],
+    "confidence": "medium",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": "app/ps1",
+      "tissue": null,
+      "disease_state": "alzheimer's disease",
+      "microbiome_status": null,
+      "barrier_status": null,
+      "administration_route": null,
+      "dose_level": null,
+      "time_horizon": null,
+      "notes": null
+    }
+  },
+  {
+    "claim_id": "C2",
+    "source_id": "pmid_31835282",
+    "intervention": "clostridium butyricum treatment",
+    "outcome": "microglial activation",
+    "effect": "decrease",
+    "summary": "Clostridium butyricum treatment suppressed microglial activation in the brain of APP/PS1 Alzheimer's disease mice.",
+    "mechanism_tags": [
+      "microglia",
+      "neuroinflammation"
+    ],
+    "confidence": "medium",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": "app/ps1",
+      "tissue": "brain",
+      "disease_state": "alzheimer's disease",
+      "microbiome_status": null,
+      "barrier_status": null,
+      "administration_route": null,
+      "dose_level": null,
+      "time_horizon": null,
+      "notes": null
+    }
+  },
+  {
+    "claim_id": "C3",
+    "source_id": "pmid_31835282",
+    "intervention": "butyrate",
+    "outcome": "nf-\u03bab p65 phosphorylation",
+    "effect": "decrease",
+    "summary": "Butyrate pretreatment reduced NF-\u03baB p65 phosphorylation in BV2 microglia, indicating suppression of inflammatory signaling.",
+    "mechanism_tags": [
+      "inflammatory signaling",
+      "nf-\u03bab pathway"
+    ],
+    "confidence": "medium",
+    "evidence_type": "in_vitro",
+    "context": {
+      "species": "mouse",
+      "model_system": "bv2 cell line",
+      "tissue": "microglia",
+      "disease_state": null,
+      "microbiome_status": null,
+      "barrier_status": null,
+      "administration_route": null,
+      "dose_level": null,
+      "time_horizon": null,
+      "notes": "mechanistic claim"
+    }
+  },
+  {
+    "claim_id": "C1",
+    "source_id": "pmid_32556930",
+    "intervention": "sodium butyrate",
+    "outcome": "neuroinflammation",
+    "effect": "increase",
+    "summary": "Sodium butyrate exacerbated neuroinflammation in an MPTP Parkinson mouse model, alongside worsening broader Parkinson-related pathology.",
+    "mechanism_tags": [
+      "colonic inflammation",
+      "neuroinflammation"
+    ],
+    "confidence": "high",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": "mptp-induced parkinson's disease",
+      "tissue": "brain",
+      "disease_state": "parkinson's disease",
+      "microbiome_status": null,
+      "barrier_status": null,
+      "administration_route": "oral",
+      "dose_level": null,
+      "time_horizon": null,
+      "notes": null
+    }
+  },
+  {
+    "claim_id": "C1",
+    "source_id": "pmid_33785315",
+    "intervention": "sodium butyrate",
+    "outcome": "neuroinflammation",
+    "effect": "decrease",
+    "summary": "Sodium butyrate reduced neuroinflammation in 5XFAD mice and improved synaptic plasticity.",
+    "mechanism_tags": [
+      "hdac inhibition",
+      "neuroinflammation suppression"
+    ],
+    "confidence": "medium",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": "5xfad",
+      "tissue": "brain",
+      "disease_state": "alzheimer's disease",
+      "microbiome_status": null,
+      "barrier_status": null,
+      "administration_route": "not specified",
+      "dose_level": null,
+      "time_horizon": "before major cognitive symptoms",
+      "notes": null
+    }
+  },
+  {
+    "claim_id": "C1",
+    "source_id": "pmid_35917736",
+    "intervention": "sodium butyrate",
+    "outcome": "hypothalamic microgliosis and inflammatory cytokine expression",
+    "effect": "decrease",
+    "summary": "Oral sodium butyrate reduces overnutrition-induced hypothalamic microgliosis and inflammatory cytokine expression in high-fat-diet mice.",
+    "mechanism_tags": [
+      "anti-inflammatory",
+      "microglial activation suppression"
+    ],
+    "confidence": "high",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": null,
+      "tissue": "hypothalamus",
+      "disease_state": "overnutrition/obesity",
+      "microbiome_status": null,
+      "barrier_status": null,
+      "administration_route": "oral",
+      "dose_level": null,
+      "time_horizon": null,
+      "notes": null
+    }
+  },
+  {
+    "claim_id": "C1",
+    "source_id": "pmid_36555338",
+    "intervention": "sodium butyrate",
+    "outcome": "neuroinflammation",
+    "effect": "decrease",
+    "summary": "Sodium butyrate supplementation prevents ethanol-induced increases in pro-inflammatory cytokine expression and normalizes microglial changes in the hippocampus of mice.",
+    "mechanism_tags": [
+      "gut-brain axis",
+      "microglial modulation"
+    ],
+    "confidence": "medium",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": null,
+      "tissue": "hippocampus",
+      "disease_state": "binge-like ethanol drinking",
+      "microbiome_status": "antibiotic-treated",
+      "barrier_status": null,
+      "administration_route": null,
+      "dose_level": null,
+      "time_horizon": null,
+      "notes": null
+    }
+  },
+  {
+    "claim_id": "C1",
+    "source_id": "pmid_36709599",
+    "intervention": "sodium butyrate",
+    "outcome": "neuroinflammation",
+    "effect": "decrease",
+    "summary": "Sodium butyrate reduces neuroinflammation in chronic alcohol-exposed mice by suppressing microglial activation and lowering pro-inflammatory cytokines.",
+    "mechanism_tags": [
+      "cytokine modulation",
+      "microglia suppression"
+    ],
+    "confidence": "high",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": null,
+      "tissue": "brain",
+      "disease_state": "chronic alcohol exposure",
+      "microbiome_status": null,
+      "barrier_status": null,
+      "administration_route": null,
+      "dose_level": null,
+      "time_horizon": null,
+      "notes": null
+    }
+  },
+  {
+    "claim_id": "C2",
+    "source_id": "pmid_36709599",
+    "intervention": "sodium butyrate",
+    "outcome": "gut barrier integrity",
+    "effect": "increase",
+    "summary": "Sodium butyrate improves gut barrier integrity in chronic alcohol-exposed mice, as evidenced by increased occludin expression and reduced endotoxemia.",
+    "mechanism_tags": [
+      "barrier repair",
+      "endotoxemia reduction"
+    ],
+    "confidence": "high",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": null,
+      "tissue": "gut",
+      "disease_state": "chronic alcohol exposure",
+      "microbiome_status": null,
+      "barrier_status": "improved",
+      "administration_route": null,
+      "dose_level": null,
+      "time_horizon": null,
+      "notes": null
+    }
+  },
+  {
+    "claim_id": "C3",
+    "source_id": "pmid_36709599",
+    "intervention": "sodium butyrate",
+    "outcome": "cognitive and mood-related outcomes",
+    "effect": "increase",
+    "summary": "Sodium butyrate improves cognitive and mood-related outcomes in chronic alcohol-exposed mice.",
+    "mechanism_tags": [
+      "behavioral improvement",
+      "neuroprotection"
+    ],
+    "confidence": "high",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": null,
+      "tissue": "brain",
+      "disease_state": "chronic alcohol exposure",
+      "microbiome_status": null,
+      "barrier_status": null,
+      "administration_route": null,
+      "dose_level": null,
+      "time_horizon": null,
+      "notes": null
+    }
+  },
+  {
+    "claim_id": "C1",
+    "source_id": "pmid_36839287",
+    "intervention": "sodium butyrate",
+    "outcome": "motor performance and dopaminergic neuron survival",
+    "effect": "increase",
+    "summary": "Sodium butyrate improves motor performance and reduces dopaminergic neuron loss in MPTP-induced Parkinson's disease mice.",
+    "mechanism_tags": [
+      "gut microbiota restoration",
+      "intestinal barrier repair"
+    ],
+    "confidence": "high",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": "mptp-induced parkinson's disease",
+      "tissue": "brain, gut",
+      "disease_state": "parkinson's disease",
+      "microbiome_status": null,
+      "barrier_status": null,
+      "administration_route": "oral",
+      "dose_level": null,
+      "time_horizon": null,
+      "notes": null
+    }
+  },
+  {
+    "claim_id": "C2",
+    "source_id": "pmid_36839287",
+    "intervention": "sodium butyrate",
+    "outcome": "tlr4/myd88/nf-\u03bab pathway activation",
+    "effect": "decrease",
+    "summary": "Sodium butyrate suppresses the TLR4/MyD88/NF-\u03baB pathway across the gut-brain axis, contributing to neuroprotection in MPTP-induced Parkinson's disease mice.",
+    "mechanism_tags": [
+      "gut-brain axis modulation",
+      "tlr4 signaling inhibition"
+    ],
+    "confidence": "high",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": "mptp-induced parkinson's disease",
+      "tissue": "brain, gut",
+      "disease_state": "parkinson's disease",
+      "microbiome_status": null,
+      "barrier_status": null,
+      "administration_route": "oral",
+      "dose_level": null,
+      "time_horizon": null,
+      "notes": null
+    }
+  },
+  {
+    "claim_id": "C1",
+    "source_id": "pmid_37318680",
+    "intervention": "sodium butyrate",
+    "outcome": "infarct volume",
+    "effect": "decrease",
+    "summary": "Sodium butyrate reduced infarct volume in a diabetic-stroke mouse model.",
+    "mechanism_tags": [
+      "anti-inflammatory",
+      "immune modulation"
+    ],
+    "confidence": "high",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": null,
+      "tissue": null,
+      "disease_state": "diabetic stroke",
+      "microbiome_status": null,
+      "barrier_status": null,
+      "administration_route": null,
+      "dose_level": null,
+      "time_horizon": null,
+      "notes": null
+    }
+  },
+  {
+    "claim_id": "C2",
+    "source_id": "pmid_37318680",
+    "intervention": "sodium butyrate",
+    "outcome": "neurological recovery",
+    "effect": "increase",
+    "summary": "Sodium butyrate improved long-term neurological recovery in diabetic-stroke mice.",
+    "mechanism_tags": [
+      "anti-inflammatory",
+      "immune modulation"
+    ],
+    "confidence": "high",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": null,
+      "tissue": null,
+      "disease_state": "diabetic stroke",
+      "microbiome_status": null,
+      "barrier_status": null,
+      "administration_route": null,
+      "dose_level": null,
+      "time_horizon": "long-term",
+      "notes": null
+    }
+  },
+  {
+    "claim_id": "C3",
+    "source_id": "pmid_37318680",
+    "intervention": "sodium butyrate",
+    "outcome": "regulatory t cell amplification",
+    "effect": "increase",
+    "summary": "Sodium butyrate amplified regulatory T cells in brain and blood, contributing to anti-inflammatory effects.",
+    "mechanism_tags": [
+      "immune modulation",
+      "tgf-\u03b2 signaling"
+    ],
+    "confidence": "high",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": null,
+      "tissue": "brain, blood",
+      "disease_state": "diabetic stroke",
+      "microbiome_status": null,
+      "barrier_status": null,
+      "administration_route": null,
+      "dose_level": null,
+      "time_horizon": null,
+      "notes": "mechanistic claim"
+    }
+  },
+  {
+    "claim_id": "C1",
+    "source_id": "pmid_37665564",
+    "intervention": "sodium butyrate",
+    "outcome": "neuroinflammation",
+    "effect": "decrease",
+    "summary": "Sodium butyrate reduced prefrontal-cortex neuroinflammation in DSS ulcerative-colitis mice while also improving intestinal barrier integrity.",
+    "mechanism_tags": [
+      "gut barrier restoration"
+    ],
+    "confidence": "high",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": "dss-induced ulcerative colitis",
+      "tissue": "prefrontal cortex",
+      "disease_state": null,
+      "microbiome_status": null,
+      "barrier_status": "improved intestinal barrier integrity",
+      "administration_route": null,
+      "dose_level": null,
+      "time_horizon": null,
+      "notes": null
+    }
+  },
+  {
+    "claim_id": "C2",
+    "source_id": "pmid_37665564",
+    "intervention": "sodium butyrate",
+    "outcome": "neuroinflammation",
+    "effect": "decrease",
+    "summary": "Sodium butyrate protects the prefrontal cortex from neuroinflammation in ulcerative colitis mice, as indicated by reduced IBA-1 levels.",
+    "mechanism_tags": [
+      "gut-brain axis"
+    ],
+    "confidence": "high",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": "dss-induced ulcerative colitis",
+      "tissue": "prefrontal cortex",
+      "disease_state": null,
+      "microbiome_status": null,
+      "barrier_status": null,
+      "administration_route": null,
+      "dose_level": null,
+      "time_horizon": null,
+      "notes": null
+    }
+  },
+  {
+    "claim_id": "C3",
+    "source_id": "pmid_37665564",
+    "intervention": "sodium butyrate",
+    "outcome": "nrf2 and hif-1\u03b1 activation",
+    "effect": "increase",
+    "summary": "Sodium butyrate activates Nrf2 and HIF-1\u03b1 pathways, leading to upregulation of antioxidant enzymes such as catalase and superoxide dismutase.",
+    "mechanism_tags": [
+      "antioxidant response",
+      "hif-1\u03b1 activation",
+      "nrf2 activation"
+    ],
+    "confidence": "high",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": "dss-induced ulcerative colitis",
+      "tissue": "intestine",
+      "disease_state": null,
+      "microbiome_status": null,
+      "barrier_status": null,
+      "administration_route": null,
+      "dose_level": null,
+      "time_horizon": null,
+      "notes": null
+    }
+  },
+  {
+    "claim_id": "C1",
+    "source_id": "pmid_38340407",
+    "intervention": "sodium butyrate",
+    "outcome": "neuroinflammation",
+    "effect": "decrease",
+    "summary": "Sodium butyrate alleviated lead-induced neuroinflammation and improved cognition in a lead neurotoxicity context.",
+    "mechanism_tags": [
+      "microglial stat3 inhibition"
+    ],
+    "confidence": "medium",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": "chronic lead exposure",
+      "tissue": "hippocampus / brain",
+      "disease_state": "lead neurotoxicity",
+      "microbiome_status": null,
+      "barrier_status": null,
+      "administration_route": "oral",
+      "dose_level": null,
+      "time_horizon": null,
+      "notes": null
+    }
+  },
+  {
+    "claim_id": "C2",
+    "source_id": "pmid_38340407",
+    "intervention": "sodium butyrate",
+    "outcome": "cognitive and memory impairment",
+    "effect": "decrease",
+    "summary": "Oral sodium butyrate improves learning and memory deficits in lead-exposed mice.",
+    "mechanism_tags": [
+      "acss2/h3k9ac/bdnf pathway"
+    ],
+    "confidence": "medium",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": null,
+      "tissue": "hippocampus",
+      "disease_state": "lead exposure",
+      "microbiome_status": null,
+      "barrier_status": null,
+      "administration_route": "oral",
+      "dose_level": null,
+      "time_horizon": null,
+      "notes": null
+    }
+  },
+  {
+    "claim_id": "C1",
+    "source_id": "pmid_39962509",
+    "intervention": "sodium butyrate",
+    "outcome": "neurological scores",
+    "effect": "increase",
+    "summary": "Sodium butyrate improved neurological scores in cardiac arrest mice.",
+    "mechanism_tags": [],
+    "confidence": "medium",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": null,
+      "tissue": null,
+      "disease_state": "cardiac arrest",
+      "microbiome_status": null,
+      "barrier_status": null,
+      "administration_route": null,
+      "dose_level": null,
+      "time_horizon": null,
+      "notes": null
+    }
+  },
+  {
+    "claim_id": "C2",
+    "source_id": "pmid_39962509",
+    "intervention": "sodium butyrate",
+    "outcome": "neuroinflammation",
+    "effect": "decrease",
+    "summary": "Sodium butyrate reduced M1 microglia-associated neuroinflammation in cardiac arrest mice.",
+    "mechanism_tags": [],
+    "confidence": "medium",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": null,
+      "tissue": null,
+      "disease_state": "cardiac arrest",
+      "microbiome_status": null,
+      "barrier_status": null,
+      "administration_route": null,
+      "dose_level": null,
+      "time_horizon": null,
+      "notes": null
+    }
+  },
+  {
+    "claim_id": "C3",
+    "source_id": "pmid_39962509",
+    "intervention": "sodium butyrate",
+    "outcome": "tlr4/myd88/nf-\u03bab pathway activity",
+    "effect": "decrease",
+    "summary": "Sodium butyrate inhibited the TLR4/MyD88/NF-\u03baB pathway, contributing to reduced neuroinflammation.",
+    "mechanism_tags": [
+      "myd88",
+      "nf-\u03bab",
+      "tlr4"
+    ],
+    "confidence": "medium",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": null,
+      "tissue": null,
+      "disease_state": "cardiac arrest",
+      "microbiome_status": null,
+      "barrier_status": null,
+      "administration_route": null,
+      "dose_level": null,
+      "time_horizon": null,
+      "notes": null
+    }
+  },
+  {
+    "claim_id": "C1",
+    "source_id": "pmid_40961414",
+    "intervention": "short-chain fatty acid supplementation",
+    "outcome": "neurologic injury after traumatic brain injury",
+    "effect": "decrease",
+    "summary": "Short-chain fatty acid supplementation after traumatic brain injury attenuates neurologic injury via the gut-brain-microglia axis.",
+    "mechanism_tags": [
+      "gut-brain-microglia axis",
+      "neuroprotection"
+    ],
+    "confidence": "medium",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": "controlled cortical impact",
+      "tissue": null,
+      "disease_state": "traumatic brain injury",
+      "microbiome_status": null,
+      "barrier_status": null,
+      "administration_route": "supplementation",
+      "dose_level": null,
+      "time_horizon": null,
+      "notes": null
+    }
+  },
+  {
+    "claim_id": "C1",
+    "source_id": "pmid_41279475",
+    "intervention": "butyrate treatment",
+    "outcome": "amyloid-beta uptake and accumulation",
+    "effect": "decrease",
+    "summary": "Butyrate decreases uptake and accumulation of A\u03b242 in endothelial cells and restores key blood-brain barrier functions under amyloid stress.",
+    "mechanism_tags": [
+      "akt activation",
+      "claudin-5 upregulation",
+      "erk activation",
+      "p-glycoprotein efflux transporter",
+      "timp-2 upregulation"
+    ],
+    "confidence": "medium",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": "endothelial cells under amyloid stress",
+      "tissue": "blood-brain barrier",
+      "disease_state": "alzheimer's disease",
+      "microbiome_status": null,
+      "barrier_status": null,
+      "administration_route": null,
+      "dose_level": null,
+      "time_horizon": null,
+      "notes": null
+    }
+  },
+  {
+    "claim_id": "C1",
+    "source_id": "pmid_41366428",
+    "intervention": "diet engineered to increase microbial production of acetate and butyrate",
+    "outcome": "long-term neurologic impairment after traumatic brain injury",
+    "effect": "decrease",
+    "summary": "A diet engineered to increase microbial production of acetate and butyrate attenuates long-term neurologic impairment after traumatic brain injury.",
+    "mechanism_tags": [
+      "gut-brain axis",
+      "microbial short-chain fatty acid production"
+    ],
+    "confidence": "medium",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": "controlled cortical impact",
+      "tissue": null,
+      "disease_state": "traumatic brain injury",
+      "microbiome_status": null,
+      "barrier_status": null,
+      "administration_route": null,
+      "dose_level": null,
+      "time_horizon": null,
+      "notes": null
+    }
+  },
+  {
+    "claim_id": "C1",
+    "source_id": "pmid_41786890",
+    "intervention": "butyrate",
+    "outcome": "amyloid-beta pathology",
+    "effect": "decrease",
+    "summary": "Butyrate prevents gut-brain amyloid-\u03b2 pathology and neuroinflammation in an Alzheimer mouse model.",
+    "mechanism_tags": [
+      "amyloid cascade",
+      "gut-brain axis"
+    ],
+    "confidence": "medium",
+    "evidence_type": "in_vivo",
+    "context": {
+      "species": "mouse",
+      "model_system": "samp8",
+      "tissue": null,
+      "disease_state": "alzheimer's disease model",
+      "microbiome_status": null,
+      "barrier_status": null,
+      "administration_route": null,
+      "dose_level": null,
+      "time_horizon": null,
+      "notes": null
+    }
+  }
+]

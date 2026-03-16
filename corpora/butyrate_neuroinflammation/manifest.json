@@ -1,0 +1,121 @@
+[
+  {
+    "source_id": "pmid_29229502",
+    "pmid": "29229502",
+    "title": "Sodium butyrate abolishes lipopolysaccharide-induced depression-like behaviors and hippocampal microglial activation in mice",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29229502/",
+    "category": "lps_depression"
+  },
+  {
+    "source_id": "pmid_30154787",
+    "pmid": "30154787",
+    "title": "Butyrate and Dietary Soluble Fiber Improve Neuroinflammation Associated With Aging in Mice",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30154787/",
+    "category": "aging"
+  },
+  {
+    "source_id": "pmid_31835282",
+    "pmid": "31835282",
+    "title": "Effect of Clostridium butyricum against Microglia-Mediated Neuroinflammation in Alzheimer's Disease via Regulating Gut Microbiota and Metabolites Butyrate",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31835282/",
+    "category": "alzheimers_cb"
+  },
+  {
+    "source_id": "pmid_32556930",
+    "pmid": "32556930",
+    "title": "Sodium Butyrate Exacerbates Parkinson's Disease by Aggravating Neuroinflammation and Colonic Inflammation in MPTP-Induced Mice Model",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32556930/",
+    "category": "parkinsons_conflict"
+  },
+  {
+    "source_id": "pmid_33785315",
+    "pmid": "33785315",
+    "title": "Sodium butyrate ameliorates the impairment of synaptic plasticity by inhibiting the neuroinflammation in 5XFAD mice",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33785315/",
+    "category": "alzheimers_5xfad"
+  },
+  {
+    "source_id": "pmid_35917736",
+    "pmid": "35917736",
+    "title": "Sodium butyrate reduces overnutrition-induced microglial activation and hypothalamic inflammation",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35917736/",
+    "category": "obesity_hypothalamus"
+  },
+  {
+    "source_id": "pmid_36555338",
+    "pmid": "36555338",
+    "title": "Sodium Butyrate Supplementation Modulates Neuroinflammatory Response Aggravated by Antibiotic Treatment in a Mouse Model of Binge-like Ethanol Drinking",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36555338/",
+    "category": "alcohol"
+  },
+  {
+    "source_id": "pmid_36709599",
+    "pmid": "36709599",
+    "title": "Butyrate ameliorates chronic alcoholic central nervous damage by suppressing microglia-mediated neuroinflammation and modulating the microbiome-gut-brain axis",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36709599/",
+    "category": "alcohol_chronic"
+  },
+  {
+    "source_id": "pmid_36839287",
+    "pmid": "36839287",
+    "title": "Neuroprotective Effects of Sodium Butyrate by Restoring Gut Microbiota and Inhibiting TLR4 Signaling in Mice with MPTP-Induced Parkinson's Disease",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36839287/",
+    "category": "parkinsons"
+  },
+  {
+    "source_id": "pmid_37318680",
+    "pmid": "37318680",
+    "title": "Effect and Mechanism of Sodium Butyrate on Neuronal Recovery and Prognosis in Diabetic Stroke",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37318680/",
+    "category": "diabetic_stroke"
+  },
+  {
+    "source_id": "pmid_37665564",
+    "pmid": "37665564",
+    "title": "Sodium Butyrate Protects Against Intestinal Oxidative Damage and Neuroinflammation in the Prefrontal Cortex of Ulcerative Colitis Mice Model",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37665564/",
+    "category": "ulcerative_colitis"
+  },
+  {
+    "source_id": "pmid_38340407",
+    "pmid": "38340407",
+    "title": "Sodium butyrate alleviates lead-induced neuroinflammation and improves cognitive and memory impairment through the ACSS2/H3K9ac/BDNF pathway",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38340407/",
+    "category": "lead_neurotoxicity"
+  },
+  {
+    "source_id": "pmid_39962509",
+    "pmid": "39962509",
+    "title": "Sodium butyrate attenuates microglia-mediated neuroinflammation by modulating the TLR4/MyD88/NF-\u03baB pathway and microbiome-gut-brain axis in cardiac arrest mice",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39962509/",
+    "category": "cardiac_arrest"
+  },
+  {
+    "source_id": "pmid_40961414",
+    "pmid": "40961414",
+    "title": "Short-Chain Fatty Acid Supplementation After Traumatic Brain Injury Attenuates Neurologic Injury Via the Gut-Brain-Microglia Axis",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40961414",
+    "category": "tbi_scfa_mix"
+  },
+  {
+    "source_id": "pmid_41279475",
+    "pmid": "41279475",
+    "title": "Butyrate regulates the blood-brain barrier transport and intra-endothelial accumulation of Alzheimer's disease Amyloid-beta peptides",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41279475/",
+    "category": "bbb_ad"
+  },
+  {
+    "source_id": "pmid_41366428",
+    "pmid": "41366428",
+    "title": "Microbial production of short-chain fatty acids attenuates long-term neurologic impairment after traumatic brain injury",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41366428/",
+    "category": "tbi_hamsab"
+  },
+  {
+    "source_id": "pmid_41786890",
+    "pmid": "41786890",
+    "title": "The short-chain fatty acid butyrate prevents gut-brain amyloid-\u03b2 pathology and neuroinflammation in an Alzheimer mouse model",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41786890/",
+    "category": "alzheimers"
+  }
+]

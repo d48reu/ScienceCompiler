@@ -1,0 +1,9 @@
+intervention,outcome,leading_effect,net_support,claim_count,weighted_support_by_effect,review_status,review_notes
+butyrate,amyloid-beta pathology,decrease,4.5,1,"{""decrease"": 4.5}",,
+butyrate,neuroinflammation,decrease,4.5,1,"{""decrease"": 4.5}",,
+clostridium butyricum treatment,microglial activation,decrease,4.6,1,"{""decrease"": 4.6}",,
+diet engineered to increase microbial production of acetate and butyrate,long-term neurologic impairment after traumatic brain injury,decrease,4.5,1,"{""decrease"": 4.5}",,
+short-chain fatty acid supplementation,neurologic injury after traumatic brain injury,decrease,4.6,1,"{""decrease"": 4.6}",,
+sodium butyrate,infarct volume,decrease,5.4,1,"{""decrease"": 5.4}",,
+sodium butyrate,motor performance and dopaminergic neuron survival,increase,-5.7,1,"{""increase"": 5.7}",,
+sodium butyrate,neuroinflammation,decrease,23.4,7,"{""decrease"": 29.1, ""increase"": 5.7}",,

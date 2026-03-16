@@ -1,0 +1,76 @@
+{
+  "updates": [
+    {
+      "source_id": "pmid_30154787",
+      "claim_id": "C3",
+      "set": {
+        "outcome": "neuroinflammation",
+        "summary": "Pharmacologic butyrate treatment reduced microglial inflammatory cytokine expression in aged mice after LPS challenge, consistent with reduced neuroinflammation.",
+        "context": {
+          "model_system": "aged mice after lps challenge",
+          "disease_state": "aging-related neuroinflammation",
+          "tissue": "microglia / brain"
+        }
+      }
+    },
+    {
+      "source_id": "pmid_37665564",
+      "claim_id": "C1",
+      "set": {
+        "outcome": "neuroinflammation",
+        "summary": "Sodium butyrate reduced prefrontal-cortex neuroinflammation in DSS ulcerative-colitis mice while also improving intestinal barrier integrity.",
+        "context": {
+          "tissue": "prefrontal cortex",
+          "barrier_status": "improved intestinal barrier integrity"
+        }
+      }
+    },
+    {
+      "source_id": "pmid_38340407",
+      "claim_id": "C1",
+      "set": {
+        "summary": "Sodium butyrate alleviated lead-induced neuroinflammation and improved cognition in a lead neurotoxicity context.",
+        "context": {
+          "disease_state": "lead neurotoxicity",
+          "model_system": "chronic lead exposure",
+          "tissue": "hippocampus / brain"
+        }
+      }
+    },
+    {
+      "source_id": "pmid_31835282",
+      "claim_id": "C1",
+      "set": {
+        "summary": "Clostridium butyricum treatment decreased microglial activation in APP/PS1 Alzheimer mice, consistent with reduced neuroinflammation through a butyrate-mediated gut-brain mechanism."
+      }
+    },
+    {
+      "source_id": "pmid_32556930",
+      "claim_id": "C1",
+      "set": {
+        "outcome": "neuroinflammation",
+        "summary": "Sodium butyrate exacerbated neuroinflammation in an MPTP Parkinson mouse model, alongside worsening broader Parkinson-related pathology.",
+        "context": {
+          "tissue": "brain",
+          "disease_state": "parkinson's disease",
+          "model_system": "mptp-induced parkinson's disease"
+        }
+      }
+    },
+    {
+      "source_id": "pmid_33785315",
+      "claim_id": "C1",
+      "set": {
+        "outcome": "neuroinflammation",
+        "summary": "Sodium butyrate reduced neuroinflammation in 5XFAD mice and improved synaptic plasticity.",
+        "context": {
+          "tissue": "brain",
+          "disease_state": "alzheimer's disease",
+          "model_system": "5xfad"
+        }
+      }
+    }
+  ],
+  "drops": [],
+  "adds": []
+}

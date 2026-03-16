@@ -1,0 +1,6 @@
+Source: PMID 39962509
+Title: Sodium butyrate attenuates microglia-mediated neuroinflammation by modulating the TLR4/MyD88/NF-κB pathway and microbiome-gut-brain axis in cardiac arrest mice
+URL: https://pubmed.ncbi.nlm.nih.gov/39962509/
+
+Study summary:
+This cardiac-arrest mouse study reported that sodium butyrate improved neurological scores, reduced neuronal death and apoptosis, and reduced M1 microglia-associated neuroinflammation. The intervention restored aspects of gut microbiota composition and SCFA levels, improved intestinal barrier integrity, and lowered systemic pro-inflammatory cytokines including IL-6 and TNF-α. Sodium butyrate was associated with increased anti-inflammatory cytokines and a shift toward anti-inflammatory microglial polarization. The main mechanistic interpretation is inhibition of the TLR4/MyD88/NF-κB pathway and repair of the microbiome-gut-brain axis.

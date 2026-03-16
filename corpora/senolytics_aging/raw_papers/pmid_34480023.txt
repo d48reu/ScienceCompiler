@@ -1,0 +1,6 @@
+Source: PMID 34480023
+Title: Long-term treatment with senolytic drugs Dasatinib and Quercetin ameliorates age-dependent intervertebral disc degeneration in mice
+URL: https://pubmed.ncbi.nlm.nih.gov/34480023/
+
+Study summary:
+This long-term mouse study tested weekly dasatinib plus quercetin treatment across multiple aging windows and found that earlier or mid-life intervention reduced age-dependent intervertebral disc degeneration. The treatment reduced senescence markers and SASP molecules such as IL-6 and MMP13, preserved tissue architecture, reduced fibrosis, and improved maintenance of disc-cell phenotype. However, very late treatment was less effective than earlier intervention. The paper presents D+Q as a senolytic strategy that can mitigate disc degeneration when timing is favorable.

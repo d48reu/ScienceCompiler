@@ -1,0 +1,51 @@
+Hackathon demo script
+
+Target length:
+60 to 90 seconds.
+
+Open:
+"Most AI-for-science tools summarize papers or predict properties. We built something different: a Science Compiler. It turns literature into structured claims, contradictions, weighted evidence, and experiment ideas."
+
+Show the butyrate corpus first.
+
+Step 1:
+Show the corpus folder.
+Say:
+"Here are raw study summaries in one narrow scientific question: when does butyrate reduce neuroinflammation, and when might it worsen it?"
+
+Suggested terminal view:
+/home/d48reu/science-compiler/corpora/butyrate_neuroinflammation/
+
+Step 2:
+Run or show the gold report.
+Say:
+"The compiler extracts and refines claims, canonicalizes labels, weights evidence, and splits the literature by disease family instead of flattening everything into one average answer."
+
+Best file to show:
+/home/d48reu/science-compiler/corpora/butyrate_neuroinflammation/reports/compiler_report_gold.md
+
+Step 3:
+Show the key result.
+Say:
+"It finds that direct sodium butyrate looks mostly anti-neuroinflammatory across alcohol-related, Alzheimer-related, acute-injury, gut-inflammation, and toxic-exposure contexts — but a Parkinson/MPTP paper points the other way."
+
+Best lines to show:
+- direct butyrate | parkinsonian | neuroinflammation
+- direct butyrate | alcohol_related | neuroinflammation
+- direct butyrate | alzheimer_related | neuroinflammation
+
+Step 4:
+Show that it is not just one-off.
+Say:
+"Then we ran a second domain: senolytics and aging. There the structure is different — not one clean contradiction, but a benefit-versus-harm tradeoff map across agents like D+Q, fisetin, and navitoclax."
+
+Best file to show:
+/home/d48reu/science-compiler/corpora/senolytics_aging/reports/TRADEOFF_MEMO.md
+
+Step 5:
+Close with the core claim.
+Say:
+"So the point is not that the AI is replacing scientists. The point is that it gives researchers a new way to compute over literature: find the real disagreements, preserve nuance, and generate sharper next experiments."
+
+Final line:
+"Science Compiler turns papers from things you read into things you can compute over."

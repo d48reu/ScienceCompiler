@@ -1,0 +1,9 @@
+Most AI for science tools summarize papers or predict on datasets. We built something different: Science Compiler. It turns scientific literature into structured claims, contradiction maps, weighted evidence, and experiment ideas.
+
+In our first domain, butyrate and neuroinflammation, the system found a real context-dependent sign flip. Direct sodium butyrate looks mostly anti-neuroinflammatory across several non-Parkinsonian contexts, but one M. P. T. P. Parkinson paper points the other way.
+
+In our second domain, senolytics and aging, the structure changes. Instead of one central contradiction, the system surfaces a benefit-versus-harm tradeoff map across agents like dasatinib plus quercetin, fisetin, and navitoclax.
+
+So the point is not that AI replaces scientists. The point is that it gives researchers a new way to compute over literature, preserve disagreement, and generate sharper next experiments.
+
+Science Compiler turns papers from things you read into things you can compute over.

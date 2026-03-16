@@ -1,0 +1,6 @@
+Source: PMID 41786890
+Title: The short-chain fatty acid butyrate prevents gut-brain amyloid-β pathology and neuroinflammation in an Alzheimer mouse model
+URL: https://pubmed.ncbi.nlm.nih.gov/41786890/
+
+Study summary:
+This Alzheimer-related mouse study argues that gut amyloid pathology appears before memory decline and that butyrate can interrupt the gut-brain amyloid cascade. Butyrate reduced amyloid-beta secretion, preserved enteric neuronal connectivity, and blocked amyloid accumulation in the gut, plasma, and brain of SAMP8 mice. It also ameliorated neuroinflammation and prevented memory deficits. The study frames butyrate as acting on both amyloid production and clearance, with relevance to gut-brain signaling in Alzheimer pathology.

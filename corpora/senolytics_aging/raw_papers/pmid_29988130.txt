@@ -1,0 +1,6 @@
+Source: PMID 29988130
+Title: Senolytics improve physical function and increase lifespan in old age
+URL: https://pubmed.ncbi.nlm.nih.gov/29988130/
+
+Study summary:
+This aging study tested intermittent senolytic treatment, especially the dasatinib plus quercetin combination, in senescent cell-transplanted mice and naturally aged mice. The intervention alleviated physical dysfunction, improved walking speed and endurance, and increased post-treatment survival and remaining lifespan in old mice. The work also showed that dasatinib plus quercetin reduced naturally occurring senescent cells and frailty-related proinflammatory cytokine secretion in human adipose tissue explants. The paper frames senescent cells as drivers of age-related dysfunction and senolytics as a late-life intervention that can extend healthspan and lifespan.

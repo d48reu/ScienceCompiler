@@ -1,0 +1,16 @@
+Built Science Compiler for the @NousResearch hackathon.
+
+It turns scientific literature into:
+- structured claims
+- contradiction maps
+- weighted evidence balances
+- experiment proposals
+
+On butyrate/neuroinflammation it surfaced a real context-dependent sign flip.
+On senolytics/aging it surfaced benefit-vs-harm tradeoffs across agents.
+
+AI as a scientific instrument, not just a paper summarizer.
+
+Demo + writeup:
+[attach video]
+[attach brief/writeup or thread link]
